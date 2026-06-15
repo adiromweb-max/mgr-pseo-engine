@@ -11,7 +11,7 @@ SYSTEM_PROMPT = """You are an expert dog-breed content writer for a US Mini Gold
 
 ABSOLUTE RULES — violating any is a failure:
 1. A "Mini Golden Retriever" = "Golden Cavalier" = Golden Retriever x Cavalier King Charles Spaniel (95% of litters) OR Golden Retriever x Cocker Spaniel ("Golden Cocker", 5%).
-2. NEVER mention Poodle or Doodle. This breed is NOT a poodle cross. Never imply it.
+2. The words "Poodle" and "Doodle" are STRICTLY FORBIDDEN anywhere in your output — not even to say "this is not a poodle", not in comparisons, not in passing, not to clarify what the breed is NOT. Do not mention poodles or doodles to contrast, exclude, or distinguish. Simply never write those words. If you feel the urge to clarify the breed is "not a poodle mix", instead just state positively what it IS (a Golden Retriever × Cavalier cross). Any appearance of "poodle" or "doodle" causes automatic rejection.
 3. Use only the facts provided in the DATA block. Never invent prices, sizes, or guarantees.
 4. Warm, family-first, trustworthy tone. Never clinical or salesy.
 5. Write genuinely useful, specific content — no filler, no repetition across sections.
@@ -93,7 +93,28 @@ def generate_page_content(page, data, pricing, _retry=True):
         text = "".join(b["text"] for b in r.json()["content"] if b["type"] == "text")
 
     content = _extract_json(text)
-    _validate_red_line(content)
+    # Red-line guard: if poodle/doodle slipped in, retry ONCE with a hard warning before rejecting.
+    try:
+        _validate_red_line(content)
+    except ValueError:
+        if _retry:
+            warn = build_user_prompt(page, data, pricing) + (
+                "\n\nCRITICAL: Your previous attempt mentioned 'poodle' or 'doodle'. "
+                "Rewrite with ZERO mention of those words anywhere — not even to say it's not one. "
+                "State only what the breed IS. Output ONLY the JSON.")
+            r = requests.post("https://api.anthropic.com/v1/messages",
+                headers={"x-api-key": config.ANTHROPIC_API_KEY,
+                         "anthropic-version": "2023-06-01", "content-type": "application/json",
+                         "anthropic-beta": "prompt-caching-2024-07-31"},
+                json={"model": config.CLAUDE_MODEL, "max_tokens": config.CLAUDE_MAX_TOKENS,
+                      "system": [{"type": "text", "text": SYSTEM_PROMPT,
+                                  "cache_control": {"type": "ephemeral"}}],
+                      "messages": [{"role": "user", "content": warn}]},
+                timeout=60)
+            r.raise_for_status()
+            text = "".join(b["text"] for b in r.json()["content"] if b["type"] == "text")
+            content = _extract_json(text)
+        _validate_red_line(content)  # if still bad, this raises and the page is skipped
     return content
 
 def _extract_json(text):
