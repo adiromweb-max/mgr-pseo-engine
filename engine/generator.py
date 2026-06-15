@@ -53,11 +53,15 @@ Write JSON with this exact schema:
 Include 2-4 sections and 3-5 FAQs. Make it unique and valuable — this page must earn its ranking."""
 
 def generate_page_content(page, data, pricing, _retry=True):
-    """Call Claude API, return parsed content dict."""
+    """Call Claude API with prompt caching, return parsed content dict."""
+    # Prompt caching: the big static system prompt is cached so repeat calls are cheaper.
     body = {
         "model": config.CLAUDE_MODEL,
         "max_tokens": config.CLAUDE_MAX_TOKENS,
-        "system": SYSTEM_PROMPT,
+        "system": [
+            {"type": "text", "text": SYSTEM_PROMPT,
+             "cache_control": {"type": "ephemeral"}}
+        ],
         "messages": [{"role": "user", "content": build_user_prompt(page, data, pricing)}],
     }
     r = requests.post(
@@ -66,26 +70,27 @@ def generate_page_content(page, data, pricing, _retry=True):
             "x-api-key": config.ANTHROPIC_API_KEY,
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
+            "anthropic-beta": "prompt-caching-2024-07-31",
         },
-        json=body, timeout=120,
+        json=body, timeout=60,
     )
     r.raise_for_status()
     resp = r.json()
     text = "".join(b["text"] for b in resp["content"] if b["type"] == "text")
 
-    # If the response was cut off (hit token limit), retry once at lower verbosity
-    stop = resp.get("stop_reason")
-    if stop == "max_tokens" and _retry:
-        # ask for a more compact version to fit
-        body["messages"].append({"role": "assistant", "content": text})
-        body["messages"].append({"role": "user", "content":
-            "Your JSON was cut off. Resend the COMPLETE valid JSON, more concise so it fits. Output ONLY the JSON."})
-        r2 = requests.post("https://api.anthropic.com/v1/messages",
+    # If cut off, try ONE compact retry; never loop.
+    if resp.get("stop_reason") == "max_tokens" and _retry:
+        body["max_tokens"] = config.CLAUDE_MAX_TOKENS
+        body["messages"] = [{"role": "user",
+            "content": build_user_prompt(page, data, pricing) +
+            "\n\nIMPORTANT: keep it concise — 2 sections, 3 FAQs max, so the JSON fits in one response."}]
+        r = requests.post("https://api.anthropic.com/v1/messages",
             headers={"x-api-key": config.ANTHROPIC_API_KEY,
-                     "anthropic-version": "2023-06-01", "content-type": "application/json"},
-            json=body, timeout=120)
-        r2.raise_for_status()
-        text = "".join(b["text"] for b in r2.json()["content"] if b["type"] == "text")
+                     "anthropic-version": "2023-06-01", "content-type": "application/json",
+                     "anthropic-beta": "prompt-caching-2024-07-31"},
+            json=body, timeout=60)
+        r.raise_for_status()
+        text = "".join(b["text"] for b in r.json()["content"] if b["type"] == "text")
 
     content = _extract_json(text)
     _validate_red_line(content)

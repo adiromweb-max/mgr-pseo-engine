@@ -18,9 +18,9 @@ on:
         default: false
         type: boolean
       limit:
-        description: 'Max pages this run'
+        description: 'Max pages this run (start small: 3)'
         required: true
-        default: '15'
+        default: '3'
         type: string
   schedule:
     # 06:00 UTC on the 1st of every month — the retainer refresh

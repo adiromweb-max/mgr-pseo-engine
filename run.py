@@ -79,8 +79,8 @@ def main():
         if info: p["keywords"] = info["keywords"][:6]
 
     pricing = pricing_mod.get_live_pricing()
-    print(f"[pricing] {pricing_mod.price_range_str(pricing)} (live={pricing['live']})")
-    print(f"[batch] {args.batch}: {len(pages)} candidate pages | DRY_RUN={config.DRY_RUN}")
+    print(f"[pricing] {pricing_mod.price_range_str(pricing)} (live={pricing['live']})", flush=True)
+    print(f"[batch] {args.batch}: {len(pages)} candidate pages | DRY_RUN={config.DRY_RUN}", flush=True)
 
     done = 0
     for page in pages:
@@ -91,7 +91,8 @@ def main():
             print(f"[batch] reached limit {args.limit}; rerun to continue")
             break
         try:
-            print(f"  → generating: {slug}")
+            print(f"  → generating: {slug}", flush=True)
+            t0 = time.time()
             content = generator.generate_page_content(page, data, pricing)
             links   = wp_push.resolve_internal_links(page, data, kw_map)
             body    = assembler.assemble_html(content, page, data, pricing, links)
@@ -103,15 +104,16 @@ def main():
 
             if not config.DRY_RUN:
                 url = wp_push.push_page(content, body, schema, page, slug)
-                print(f"    pushed → {url}")
+                print(f"    pushed → {url}", flush=True)
 
             state["completed"].append(slug)
             state["owned_keywords"][page["intent"]] = slug
             save_state(state)
             done += 1
+            print(f"    ✓ done in {time.time()-t0:.0f}s ({done}/{args.limit})", flush=True)
             time.sleep(config.REQUEST_DELAY_SEC)
         except Exception as e:
-            print(f"    ⚠ failed {slug}: {e}")
+            print(f"    ⚠ failed {slug}: {e}", flush=True)
 
     print(f"[done] generated {done} pages this run. Total completed: {len(state['completed'])}")
 
