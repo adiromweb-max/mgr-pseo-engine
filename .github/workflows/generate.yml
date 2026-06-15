@@ -1,0 +1,72 @@
+name: MGR pSEO Engine
+
+# Run manually (button in Actions tab) OR automatically on the 1st of each month
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 'Which batch to generate'
+        required: true
+        default: 'quickwins'
+        type: choice
+        options:
+          - quickwins
+          - all
+      live:
+        description: 'Push to WordPress? (unchecked = dry run, files only)'
+        required: true
+        default: false
+        type: boolean
+      limit:
+        description: 'Max pages this run'
+        required: true
+        default: '15'
+        type: string
+  schedule:
+    # 06:00 UTC on the 1st of every month — the retainer refresh
+    - cron: '0 6 1 * *'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASS: ${{ secrets.WP_APP_PASS }}
+        run: |
+          # scheduled runs = full refresh, live; manual = use the inputs
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python run.py --batch all --live --limit 30
+          else
+            LIVE_FLAG=""
+            if [ "${{ github.event.inputs.live }}" = "true" ]; then LIVE_FLAG="--live"; fi
+            python run.py --batch ${{ github.event.inputs.batch }} $LIVE_FLAG --limit ${{ github.event.inputs.limit }}
+          fi
+
+      - name: Upload generated pages (for review)
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-pages
+          path: output/
+          retention-days: 30
+
+      - name: Commit state file (anti-duplication tracking)
+        run: |
+          git config user.name "mgr-engine-bot"
+          git config user.email "bot@a-webm.com"
+          git add data/generation_state.json || true
+          git commit -m "Update generation state [skip ci]" || echo "no changes"
+          git push || echo "nothing to push"

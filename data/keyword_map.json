@@ -1,0 +1,2090 @@
+[
+ {
+  "keyword": "mini golden retriever",
+  "volume": 40190,
+  "position": 9.41,
+  "cluster": "core_mini",
+  "decision": "LINK_TO_EXISTING",
+  "target": "home/main"
+ },
+ {
+  "keyword": "golden cavalier",
+  "volume": 5750,
+  "position": 7.91,
+  "cluster": "golden_cavalier",
+  "decision": "LINK_TO_EXISTING",
+  "target": "home/main"
+ },
+ {
+  "keyword": "golden retriever cavalier mix",
+  "volume": 490,
+  "position": 4.33,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden retriever for sale",
+  "volume": 1500,
+  "position": 9.0,
+  "cluster": "for_sale",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-puppies"
+ },
+ {
+  "keyword": "mini golden retriever full grown",
+  "volume": 570,
+  "position": 4.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "mini golden",
+  "volume": 5000,
+  "position": 5.07,
+  "cluster": "core_mini",
+  "decision": "LINK_TO_EXISTING",
+  "target": "home/main"
+ },
+ {
+  "keyword": "mini golden retriever price",
+  "volume": 150,
+  "position": 2.0,
+  "cluster": "price_cost",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-pricing"
+ },
+ {
+  "keyword": "golden cavalier mix",
+  "volume": 480,
+  "position": 7.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "how much are golden retrievers",
+  "volume": 3500,
+  "position": 12.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini retriever",
+  "volume": 1580,
+  "position": 8.2,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever mini",
+  "volume": 570,
+  "position": 2.88,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden cavalier puppies",
+  "volume": 150,
+  "position": 2.0,
+  "cluster": "golden_cavalier",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-puppies"
+ },
+ {
+  "keyword": "mini golden retriever cavalier mix",
+  "volume": 90,
+  "position": 1.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden retreivers",
+  "volume": 60,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "mini golden retriever size",
+  "volume": 160,
+  "position": 1.5,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "mini golden cavalier",
+  "volume": 150,
+  "position": 1.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden king charles spaniel",
+  "volume": 200,
+  "position": 1.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "how much is a mini golden retriever",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden cavalier puppies for sale",
+  "volume": 200,
+  "position": 4.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden cavalier for sale",
+  "volume": 170,
+  "position": 4.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "mini golden retriever weight",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "cavalier golden retriever mix",
+  "volume": 280,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden cavaliers",
+  "volume": 100,
+  "position": 3.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden retriever king charles mix",
+  "volume": 280,
+  "position": 8.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden retriver",
+  "volume": 300,
+  "position": 8.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "how much are mini golden retrievers",
+  "volume": 40,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever cavalier king charles mix",
+  "volume": 100,
+  "position": 3.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden retriever adoption",
+  "volume": 60,
+  "position": 1.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "how much is a golden retriever",
+  "volume": 5100,
+  "position": 11.67,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever king charles spaniel mix",
+  "volume": 70,
+  "position": 2.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever size chart",
+  "volume": 310,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "full grown mini golden retriever",
+  "volume": 1450,
+  "position": 7.67,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "mini golden retriever cost",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-pricing"
+ },
+ {
+  "keyword": "mini golden retriever breeder",
+  "volume": 150,
+  "position": 6.0,
+  "cluster": "for_sale",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-breeder"
+ },
+ {
+  "keyword": "mini golden retriever adult",
+  "volume": 200,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "miniature golden retriever price",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "what is a mini golden retriever",
+  "volume": 200,
+  "position": 8.0,
+  "cluster": "info_whatis",
+  "decision": "LINK_TO_EXISTING",
+  "target": "what-is-a-mini-golden-retriever"
+ },
+ {
+  "keyword": "king charles cavalier golden retriever mix",
+  "volume": 100,
+  "position": 4.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "miniature golden retriever",
+  "volume": 8560,
+  "position": 12.75,
+  "cluster": "core_mini",
+  "decision": "LINK_TO_EXISTING",
+  "target": "home/main"
+ },
+ {
+  "keyword": "mini golden retriever vs golden retriever",
+  "volume": 90,
+  "position": 4.0,
+  "cluster": "info_whatis",
+  "decision": "NEW_PAGE",
+  "target": "info_whatis"
+ },
+ {
+  "keyword": "miniature golden retrievers for sale",
+  "volume": 450,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "how much do mini golden retrievers cost",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever mix puppies for sale",
+  "volume": 150,
+  "position": 7.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "full grown golden cavalier mix",
+  "volume": 80,
+  "position": 1.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden retrievers for adoption",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "full grown golden cavalier",
+  "volume": 250,
+  "position": 9.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "miniature golden retriever for sale",
+  "volume": 300,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "mini golden retrievers",
+  "volume": 800,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever king charles cavalier mix",
+  "volume": 80,
+  "position": 3.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "king charles spaniel golden retriever mix",
+  "volume": 150,
+  "position": 1.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden cavalier for sale",
+  "volume": 60,
+  "position": 2.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "teacup mini golden retriever",
+  "volume": 600,
+  "position": 1.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "how big does a mini golden retriever get",
+  "volume": 70,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden mini",
+  "volume": 570,
+  "position": 4.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever puppy price",
+  "volume": 1300,
+  "position": 14.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "king charles golden retriever mix",
+  "volume": 200,
+  "position": 8.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "cavalier and golden retriever mix",
+  "volume": 80,
+  "position": 5.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever cavalier king charles spaniel mix",
+  "volume": 60,
+  "position": 2.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "cavalier king charles spaniel golden retriever mix",
+  "volume": 100,
+  "position": 5.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "how big do mini golden retrievers get",
+  "volume": 150,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "cavalier golden mix",
+  "volume": 100,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "small baby golden retriever",
+  "volume": 200,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden cocker retriever for sale",
+  "volume": 250,
+  "position": 11.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "king cavalier golden retriever mix",
+  "volume": 80,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "cavalier king charles and golden retriever mix",
+  "volume": 50,
+  "position": 4.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "how much does a mini golden retriever cost",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "cavalier king charles spaniel mixed with golden retriever",
+  "volume": 80,
+  "position": 2.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever small",
+  "volume": 390,
+  "position": 1.33,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever price",
+  "volume": 250,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden cavalier breeders",
+  "volume": 50,
+  "position": 3.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "king charles and golden retriever mix",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "how much is a golden retriever puppy",
+  "volume": 1700,
+  "position": 17.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever cavalier",
+  "volume": 50,
+  "position": 4.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "cavalier retriever",
+  "volume": 50,
+  "position": 5.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "mini golden retriever puppies for sale",
+  "volume": 150,
+  "position": 10.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "cavalier golden retriever",
+  "volume": 60,
+  "position": 5.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden retriever king cavalier mix",
+  "volume": 50,
+  "position": 5.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever cost",
+  "volume": 2000,
+  "position": 18.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden cavalier breeders near me",
+  "volume": 30,
+  "position": 3.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden cavelier",
+  "volume": 40,
+  "position": 4.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "king charles golden retriever",
+  "volume": 50,
+  "position": 4.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden retriever growth chart",
+  "volume": 100,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "how big are mini golden retrievers",
+  "volume": 40,
+  "position": 4.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "how big is a mini golden retriever",
+  "volume": 30,
+  "position": 4.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "king charles cavalier and golden retriever mix",
+  "volume": 60,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "cavalier king charles golden retriever mix",
+  "volume": 100,
+  "position": 9.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "mini golden retrievers for sale near me",
+  "volume": 150,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden retriever and cavalier king charles spaniel",
+  "volume": 60,
+  "position": 4.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "king retriever",
+  "volume": 40,
+  "position": 6.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever mix for sale",
+  "volume": 50,
+  "position": 5.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "mini golden retriever full grown size",
+  "volume": 30,
+  "position": 4.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "full grown cavalier golden retriever mix",
+  "volume": 90,
+  "position": 5.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden cavalier king charles spaniel",
+  "volume": 70,
+  "position": 7.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "small golden retriever",
+  "volume": 2440,
+  "position": 11.67,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "cavalier king charles spaniel golden",
+  "volume": 50,
+  "position": 7.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "golden retriever and cavalier mix",
+  "volume": 60,
+  "position": 7.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retiever puppies",
+  "volume": 50,
+  "position": 6.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden king charles cavalier",
+  "volume": 50,
+  "position": 7.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "miniature golden retriever breeders",
+  "volume": 60,
+  "position": 7.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "cavalier king charles spaniel and golden retriever mix",
+  "volume": 70,
+  "position": 8.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden cavalier price",
+  "volume": 40,
+  "position": 5.0,
+  "cluster": "price_cost",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-pricing"
+ },
+ {
+  "keyword": "golden retriever puppies greenville sc",
+  "volume": 70,
+  "position": 8.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever grown",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden cav",
+  "volume": 20,
+  "position": 2.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden cost",
+  "volume": 50,
+  "position": 7.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "cost of a golden retriever puppy",
+  "volume": 100,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever price range",
+  "volume": 200,
+  "position": 9.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "how much are golden retriever puppies",
+  "volume": 1600,
+  "position": 19.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever how much",
+  "volume": 100,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden and cavalier mix",
+  "volume": 30,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "average golden retriever price",
+  "volume": 90,
+  "position": 9.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini golden breeders",
+  "volume": 30,
+  "position": 4.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden retriever and king charles mix",
+  "volume": 20,
+  "position": 3.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "adult mini golden retriever",
+  "volume": 90,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever mixed with cavalier king charles spaniel",
+  "volume": 30,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever toy size",
+  "volume": 70,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "teacup golden retriever",
+  "volume": 800,
+  "position": 15.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "how much are miniature golden retrievers",
+  "volume": 10,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden cavalier size",
+  "volume": 40,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever mixed with cavalier",
+  "volume": 30,
+  "position": 4.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever full size",
+  "volume": 70,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "king charles spaniel mixed with golden retriever",
+  "volume": 40,
+  "position": 8.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden cavalier puppy",
+  "volume": 110,
+  "position": 8.5,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden cavalier specialty crossbreed puppies fredericksburg photos",
+  "volume": 90,
+  "position": 10.0,
+  "cluster": "pictures",
+  "decision": "NEW_PAGE",
+  "target": "pictures"
+ },
+ {
+  "keyword": "toy golden retriever",
+  "volume": 950,
+  "position": 10.33,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "golden retriever proce",
+  "volume": 30,
+  "position": 7.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever height chart",
+  "volume": 60,
+  "position": 6.33,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "cavalier life expectancy",
+  "volume": 30,
+  "position": 6.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "average price of golden retriever",
+  "volume": 40,
+  "position": 7.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "average price for a golden retriever",
+  "volume": 40,
+  "position": 6.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "small golden retriever puppies",
+  "volume": 60,
+  "position": 8.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "average cost of a golden retriever puppy",
+  "volume": 60,
+  "position": 8.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "miniature golden retrievers",
+  "volume": 700,
+  "position": 6.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "how long do mini golden retrievers live",
+  "volume": 30,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden cavilier",
+  "volume": 20,
+  "position": 3.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden cavalier dog",
+  "volume": 150,
+  "position": 12.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden retriever mixed with king charles cavalier",
+  "volume": 30,
+  "position": 6.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "king charles spaniel and golden retriever mix",
+  "volume": 50,
+  "position": 8.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever average cost",
+  "volume": 30,
+  "position": 7.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden caviler",
+  "volume": 20,
+  "position": 4.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever puppies price range",
+  "volume": 90,
+  "position": 12.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "cocker spaniel golden retriever mix for sale",
+  "volume": 20,
+  "position": 5.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "golden retriever average price",
+  "volume": 70,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden cavalier spaniel",
+  "volume": 30,
+  "position": 6.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "how much do golden retrievers cost",
+  "volume": 2600,
+  "position": 23.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "what is a mini golden",
+  "volume": 30,
+  "position": 7.0,
+  "cluster": "info_whatis",
+  "decision": "LINK_TO_EXISTING",
+  "target": "what-is-a-mini-golden-retriever"
+ },
+ {
+  "keyword": "mini golden spaniel",
+  "volume": 40,
+  "position": 2.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "golden retreiver cost",
+  "volume": 40,
+  "position": 8.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini golden retriever puppies for sale near me",
+  "volume": 40,
+  "position": 9.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden retriever puppies for sale near me under $300",
+  "volume": 40,
+  "position": 9.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "miniature golden retriever puppies for sale",
+  "volume": 80,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "how big do miniature golden retrievers get",
+  "volume": 40,
+  "position": 9.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever puppy prices",
+  "volume": 80,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "miniature full grown mini golden retriever",
+  "volume": 150,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever cocker spaniel mix for sale",
+  "volume": 50,
+  "position": 9.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "how much is a miniature golden retriever",
+  "volume": 10,
+  "position": 1.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retrievers price",
+  "volume": 60,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "miniaturka golden retriever",
+  "volume": 90,
+  "position": 4.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "mini goldens",
+  "volume": 450,
+  "position": 9.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "mini golden dogs",
+  "volume": 40,
+  "position": 9.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "female golden retriever growth chart",
+  "volume": 30,
+  "position": 9.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "how big do golden cavaliers get",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "petite golden retriever for sale",
+  "volume": 30,
+  "position": 9.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden king charles",
+  "volume": 30,
+  "position": 8.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "comfort retriever for sale",
+  "volume": 60,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "how much do golden retriever cost",
+  "volume": 20,
+  "position": 8.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever mini for sale",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "pictures of mini golden retrievers",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "pictures",
+  "decision": "NEW_PAGE",
+  "target": "pictures"
+ },
+ {
+  "keyword": "golden retriever puppy size chart",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever/cavalier king charles for sale",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden retrievers cost",
+  "volume": 40,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever dog cost",
+  "volume": 30,
+  "position": 2.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden king cavalier",
+  "volume": 30,
+  "position": 9.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden retriever puppies for sale greenville sc",
+  "volume": 30,
+  "position": 10.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "how much do baby golden retrievers cost",
+  "volume": 30,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "cavalier king charles/golden retriever for sale",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "12 month month by month golden retriever growth",
+  "volume": 30,
+  "position": 9.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "average price of a golden retriever",
+  "volume": 50,
+  "position": 12.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "how much money is a golden retriever puppy",
+  "volume": 40,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever cavalier mix breeder",
+  "volume": 10,
+  "position": 3.0,
+  "cluster": "mix_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "mix_cavalier"
+ },
+ {
+  "keyword": "golden retriever miniature",
+  "volume": 40,
+  "position": 8.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever greenville sc",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "pocket size golden retriever",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "small golden dogs",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "average price for golden retriever",
+  "volume": 20,
+  "position": 9.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "retriever mix puppies for sale",
+  "volume": 10,
+  "position": 6.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "petite golden retriever",
+  "volume": 150,
+  "position": 4.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "miniature golden retriever adult",
+  "volume": 40,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "average cost for golden retriever puppy",
+  "volume": 30,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retrievers that stay small",
+  "volume": 30,
+  "position": 11.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever size by month",
+  "volume": 40,
+  "position": 12.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "little golden retrievers",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "mini golden retriever for adoption",
+  "volume": 30,
+  "position": 9.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "dv\u00e6rg golden retriever",
+  "volume": 40,
+  "position": 4.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "mini golden for sale",
+  "volume": 40,
+  "position": 12.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "a mini golden retriever",
+  "volume": 40,
+  "position": 3.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "king charles spaniel golden",
+  "volume": 30,
+  "position": 10.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "when is a golden retriever full grown",
+  "volume": 80,
+  "position": 11.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "kleine retriever",
+  "volume": 40,
+  "position": 3.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "how much does a golden",
+  "volume": 20,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini golden retriever dog",
+  "volume": 60,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "how much are puppy golden retrievers",
+  "volume": 30,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "how much does a golden retreiver cost",
+  "volume": 20,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini retrievers",
+  "volume": 40,
+  "position": 4.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "mini golden retriever adulto",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "toy golden retriever for sale",
+  "volume": 20,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "golden retiever for sale",
+  "volume": 10,
+  "position": 8.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "small golden dog",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "dwarf golden retriever for sale",
+  "volume": 20,
+  "position": 10.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "what is the average price of a golden retriever",
+  "volume": 20,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "what is the cost of a golden retriever",
+  "volume": 20,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "teacup golden retriever full grown",
+  "volume": 40,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "mini golden retriever lifespan",
+  "volume": 40,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "LINK_TO_EXISTING",
+  "target": "golden-cavalier-lifespan"
+ },
+ {
+  "keyword": "miniature golden retriever weight",
+  "volume": 10,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "full grown teacup mini golden retriever",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "cavalier lifespan",
+  "volume": 70,
+  "position": 7.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "miniature retriever",
+  "volume": 130,
+  "position": 2.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "average cost for a golden retriever",
+  "volume": 20,
+  "position": 12.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever costo",
+  "volume": 10,
+  "position": 8.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini golden retriever prezzo",
+  "volume": 30,
+  "position": 6.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "how much is a golden retriever worth",
+  "volume": 20,
+  "position": 11.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "cu\u00e1nto cuesta un golden retriever en estados unidos",
+  "volume": 10,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "golden retriever size chart by age",
+  "volume": 20,
+  "position": 11.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "cavalier mini",
+  "volume": 30,
+  "position": 3.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "petite golden",
+  "volume": 70,
+  "position": 7.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "what is the average cost of a golden retriever",
+  "volume": 20,
+  "position": 12.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini retriever puppies",
+  "volume": 70,
+  "position": 10.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "cavalier golden",
+  "volume": 40,
+  "position": 5.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "golden retriever prive",
+  "volume": 10,
+  "position": 11.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "pictures of miniature golden retrievers",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "pictures",
+  "decision": "NEW_PAGE",
+  "target": "pictures"
+ },
+ {
+  "keyword": "golden cocker retriever puppies for sale near me",
+  "volume": 10,
+  "position": 10.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "golden retriever full grown",
+  "volume": 30,
+  "position": 2.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "king charles golden",
+  "volume": 10,
+  "position": 10.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "small retriever dogs",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "f1 golden retriever",
+  "volume": 10,
+  "position": 1.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "cute golden retriever price",
+  "volume": 10,
+  "position": 10.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "mini golfen",
+  "volume": 20,
+  "position": 7.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "mini golden retrivee",
+  "volume": 30,
+  "position": 10.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "small golden retriever for sale",
+  "volume": 40,
+  "position": 11.0,
+  "cluster": "for_sale",
+  "decision": "NEW_PAGE",
+  "target": "for_sale"
+ },
+ {
+  "keyword": "miniature golden cocker retriever",
+  "volume": 10,
+  "position": 1.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "mini cavalier king charles spaniel",
+  "volume": 500,
+  "position": 39.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "training a golden retriever",
+  "volume": 350,
+  "position": 37.0,
+  "cluster": "temperament",
+  "decision": "NEW_PAGE",
+  "target": "temperament"
+ },
+ {
+  "keyword": "dwarf golden retriever",
+  "volume": 500,
+  "position": 36.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "golden.cavalier",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "golden_cavalier",
+  "decision": "NEW_PAGE",
+  "target": "golden_cavalier"
+ },
+ {
+  "keyword": "minigolden",
+  "volume": 30,
+  "position": 5.0,
+  "cluster": "core_mini",
+  "decision": "NEW_PAGE",
+  "target": "core_mini"
+ },
+ {
+  "keyword": "golden retriever temperament",
+  "volume": 700,
+  "position": 27.0,
+  "cluster": "temperament",
+  "decision": "LINK_TO_EXISTING",
+  "target": "mini-golden-retriever-temperament"
+ },
+ {
+  "keyword": "average size 3 month old golden retriever",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "mini golden retriever full size",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "dwarf golden retrievers",
+  "volume": 20,
+  "position": 3.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "mini golden retriever mix",
+  "volume": 70,
+  "position": 1.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "baby golden retriever price",
+  "volume": 200,
+  "position": 3.0,
+  "cluster": "price_cost",
+  "decision": "NEW_PAGE",
+  "target": "price_cost"
+ },
+ {
+  "keyword": "full grown dwarf golden retriever",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever growth by month",
+  "volume": 20,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "miniature golden retriever size",
+  "volume": 40,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "how big is a 6 month old golden retriever",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "full grown miniature golden retriever",
+  "volume": 100,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "micro golden retriever",
+  "volume": 150,
+  "position": 1.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "full size mini golden retriever",
+  "volume": 200,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ },
+ {
+  "keyword": "golden retriever small mix",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "mix_other",
+  "decision": "NEW_PAGE",
+  "target": "mix_other"
+ },
+ {
+  "keyword": "toys for golden retriever",
+  "volume": 50,
+  "position": 1.0,
+  "cluster": "variation_tiny",
+  "decision": "NEW_PAGE",
+  "target": "variation_tiny"
+ },
+ {
+  "keyword": "male golden retriever growth chart",
+  "volume": 30,
+  "position": 1.0,
+  "cluster": "size_growth",
+  "decision": "NEW_PAGE",
+  "target": "size_growth"
+ }
+]

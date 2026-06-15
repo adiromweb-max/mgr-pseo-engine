@@ -1,0 +1,86 @@
+{
+  "_comment": "DATA LAYER — single source of truth for MiniGoldenRetrievers pSEO. Edit values here; every generated page reads from this. NEVER hardcode facts into page templates.",
+
+  "breed": {
+    "primary_name": "Mini Golden Retriever",
+    "synonyms": ["Golden Cavalier", "Mini Golden", "Miniature Golden Retriever", "Petite Golden Retriever", "Golden Retriever Miniature", "Goldalier", "Golden Cavoodle", "Micro Golden Retriever", "Comfort Retriever"],
+    "composition": {
+      "primary": {"label": "Golden Cavalier", "cross": "Golden Retriever x Cavalier King Charles Spaniel", "share_pct": 95},
+      "secondary": {"label": "Golden Cocker", "cross": "Golden Retriever x Cocker Spaniel", "share_pct": 5}
+    },
+    "generations": {
+      "F1": "50% Golden Retriever / 50% Cavalier King Charles Spaniel",
+      "F1b": "75% Golden Retriever / 25% Cavalier King Charles Spaniel"
+    },
+    "RED_LINE": "NEVER mention Poodle or Doodle. This breed is NOT crossed with Poodle.",
+
+    "size": {
+      "weight_lbs": {"min": 20, "max": 50, "typical": "25-35"},
+      "height_in": {"min": 14, "max": 18},
+      "full_grown_months": {"min": 10, "max": 12}
+    },
+    "lifespan_years": {"min": 12, "max": 15},
+    "coat": {
+      "colors": ["gold", "light gold", "dark gold", "red", "buff", "black", "cream"],
+      "type": "smooth, medium-length, wavy, silky",
+      "shedding": "low to moderate"
+    },
+    "temperament": ["affectionate", "friendly", "intelligent", "loyal", "playful", "great with children", "adaptable to apartments", "easy to train"],
+    "health": {
+      "hybrid_vigor": true,
+      "common_concerns": ["hip dysplasia", "elbow dysplasia", "eye conditions", "obesity (if overfed)"],
+      "note": "Hybrid vigor from crossing two diverse gene pools typically means fewer inherited issues than either parent breed."
+    }
+  },
+
+  "pricing": {
+    "_note": "DYNAMIC — pull live from /mini-golden-retriever-puppies/ when pups available. Fallback to typical range below when sold out.",
+    "full_price_range_usd": {"min": 3900, "max": 4300},
+    "adoption_price_range_usd": {"min": 3900, "max": 4000},
+    "deposit_usd": 300,
+    "deposit_refundable": true,
+    "deposit_processing_fee_pct": 9,
+    "sales_tax_note": "6% SC sales tax applies if picking up in South Carolina",
+    "delivery": {
+      "type": "flat rate by region, Continental US",
+      "additional_puppy_fee_usd": 200
+    }
+  },
+
+  "breeder": {
+    "brand": "Mini Golden Retriever Pups",
+    "network": "Crockett Pups",
+    "partner_site": "CrockettDoodles.com",
+    "location": {"city": "Greenville", "state": "South Carolina", "state_abbr": "SC"},
+    "phone": "(864) 794-3134",
+    "trust_signals": ["A+ BBB Rating", "Google Reviews", "12-Year Health Guarantee", "Genetic Testing", "Family-Raised", "Refundable Deposit", "Microchipped"],
+    "health_guarantee_years": 12,
+    "food_guarantee_note": "Feed Health Extension or TLC for 3 years to extend 1-Year Health Guarantee to 3 years",
+    "microchip": "New unregistered chip; register with National Microchip Registry (nmr.pet), promo code CP for $5 off"
+  },
+
+  "process": [
+    {"step": "Apply Online", "detail": "Fill out an application at /apply/ to show interest and check family fit"},
+    {"step": "Place a Deposit", "detail": "$300 refundable deposit (minus 9% processing fee) after approval"},
+    {"step": "Choose Your Puppy", "detail": "Get matched, then pick up at a Partner Home or use delivery"}
+  ],
+
+  "cta": {
+    "primary": {"label": "Apply Today", "url": "/apply/"},
+    "secondary": {"label": "View Available Puppies", "url": "/mini-golden-retriever-puppies/"},
+    "phone_cta": "Questions? Call (864) 794-3134"
+  },
+
+  "existing_owner_pages": {
+    "what is a mini golden retriever": "/what-is-a-mini-golden-retriever/",
+    "pricing": "/mini-golden-retriever-pricing/",
+    "temperament": "/mini-golden-retriever-temperament/",
+    "breeder": "/mini-golden-retriever-breeder/",
+    "lifespan": "/golden-cavalier-lifespan/",
+    "puppies for sale": "/mini-golden-retriever-puppies/",
+    "vs golden retriever": "/golden-retriever-vs-mini-golden/",
+    "vs cavalier": "/cavalier-vs-mini-golden-retriever/",
+    "golden retriever vs cavalier": "/golden-retriever-vs-cavalier/",
+    "puppy_url_pattern": "/breed/mini-golden-retriever/puppy/[id]/"
+  }
+}
