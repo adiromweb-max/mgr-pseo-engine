@@ -72,15 +72,33 @@
   },
 
   "existing_owner_pages": {
-    "what is a mini golden retriever": "/what-is-a-mini-golden-retriever/",
+    "_note": "VERIFIED real URLs (200 OK) from Screaming Frog crawl. Link only to these.",
+    "what_is": "/what-is-a-mini-golden-retriever/",
     "pricing": "/mini-golden-retriever-pricing/",
+    "size": "/mini-golden-retriever-size/",
     "temperament": "/mini-golden-retriever-temperament/",
     "breeder": "/mini-golden-retriever-breeder/",
     "lifespan": "/golden-cavalier-lifespan/",
-    "puppies for sale": "/mini-golden-retriever-puppies/",
-    "vs golden retriever": "/golden-retriever-vs-mini-golden/",
-    "vs cavalier": "/cavalier-vs-mini-golden-retriever/",
-    "golden retriever vs cavalier": "/golden-retriever-vs-cavalier/",
+    "puppies": "/mini-golden-retriever-puppies/",
+    "male_female": "/mini-golden-retriever-male-vs-female/",
+    "about": "/about-mini-golden-retrievers/",
+    "health": "/health-guarantee/",
+    "delivery": "/delivery-pickup/",
+    "faq": "/frequently-asked-questions/",
+    "process": "/process/",
+    "training": "/puppy-training/",
+    "grooming": "/how-to-groom-a-mini-golden-retriever/",
+    "vs_golden": "/golden-retriever-vs-mini-golden/",
+    "vs_cavalier": "/cavalier-vs-mini-golden-retriever/",
+    "golden_vs_cav": "/golden-retriever-vs-cavalier/",
+    "parents": "/parent-dogs/",
+    "apply": "/apply/",
+    "contact": "/contact/",
     "puppy_url_pattern": "/breed/mini-golden-retriever/puppy/[id]/"
+  },
+  "cannibalization_warning": {
+    "_note": "These intents are ALREADY owned by existing pages. Do NOT generate competing pages.",
+    "for_sale_general": "18 existing litter/for-sale pages already cover generic 'for sale' intent — avoid generating generic for-sale pages",
+    "comparisons": "vs golden, vs cavalier already exist — do not regenerate"
   }
 }
