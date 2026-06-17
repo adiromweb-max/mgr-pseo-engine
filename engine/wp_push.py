@@ -2,7 +2,7 @@
 wp_push.py — Pushes assembled pages into WordPress via REST API,
 and resolves internal links from the keyword_map (anti-cannibalization).
 """
-import json, requests
+import json, requests, re
 from requests.auth import HTTPBasicAuth
 import config
 
@@ -121,9 +121,21 @@ class SkipExisting(Exception):
     pass
 
 def make_slug(page):
-    base = page["intent"].split(":")[-1].strip().lower().replace(" ", "-").replace("/", "-")
+    intent = page["intent"]
+    category, _, detail = intent.partition(":")
+    detail = detail.strip() or category.strip()
+    base = detail.lower().replace(" ", "-").replace("/", "-")
     base = "".join(c for c in base if c.isalnum() or c == "-")
+
+    # If the detail is generic (e.g. "general"), prefix the category to stay unique.
+    generic = {"general", "guide", "overview", "info"}
+    if base in generic or detail.lower() in generic:
+        cat = "".join(c for c in category.strip().lower().replace(" ", "-") if c.isalnum() or c == "-")
+        base = f"{cat}-{base}"
+
+    base = re.sub(r"-+", "-", base).strip("-")
     if page.get("location"):
         loc = page["location"].lower().replace(", ", "-").replace(" ", "-")
+        loc = "".join(c for c in loc if c.isalnum() or c == "-")
         return f"mini-golden-retriever-{base}-{loc}"
     return f"mini-golden-retriever-{base}"
