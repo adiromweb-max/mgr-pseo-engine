@@ -11,17 +11,19 @@ def load_keyword_map():
     with open(config.KEYWORD_MAP) as f:
         return json.load(f)
 
-def resolve_internal_links(page, data, kw_map, max_links=6):
+def resolve_internal_links(page, data, kw_map, completed_pages=None, max_links=8):
     """
-    Build internal links using ONLY verified real owner pages.
-    Silo logic: link up to the most relevant pillar + a few evergreen pillars.
-    Never link to a URL that isn't in the verified owner list.
+    True hierarchical silo:
+    - Link UP to the most relevant pillar (verified real URL).
+    - Link to SIBLING pages the engine already created in the same cluster.
+    - Link to a few evergreen pillars.
+    All URLs verified real or engine-created; never broken.
     """
     owners = data["existing_owner_pages"]
     intent = page["intent"]
     links = []
 
-    # 1. Link up to the most relevant pillar based on intent
+    # 1. Up to the most relevant pillar
     pillar_map = [
         ("price", "Pricing Guide", owners.get("pricing")),
         ("cost",  "Pricing Guide", owners.get("pricing")),
@@ -34,17 +36,33 @@ def resolve_internal_links(page, data, kw_map, max_links=6):
         ("core",  "What Is a Mini Golden?", owners.get("what_is")),
         ("variation", "Size & Growth Chart", owners.get("size")),
     ]
+    cluster_key = None
     for key, label, url in pillar_map:
         if key in intent and url and (label, url) not in links:
             links.append((label, url))
+            cluster_key = key
             break
 
-    # 2. Evergreen pillars every page benefits from (all verified real URLs)
+    # 2. SIBLING links — other engine-created pages in the same cluster (the silo)
+    if completed_pages and cluster_key:
+        siblings = []
+        for sib_intent, sib_slug in completed_pages.items():
+            if sib_intent == intent:
+                continue
+            if cluster_key in sib_intent:  # same cluster
+                # human label from the sibling intent
+                label = sib_intent.split(":")[-1].strip().title()
+                siblings.append((label, "/guide/" + sib_slug + "/"))
+        # add up to 3 siblings
+        for s in siblings[:3]:
+            if s not in links:
+                links.append(s)
+
+    # 3. Evergreen pillars (verified real URLs)
     evergreen = [
         ("What Is a Mini Golden?", owners.get("what_is")),
         ("Pricing Guide", owners.get("pricing")),
         ("Available Puppies", owners.get("puppies")),
-        ("Our Breeder Story", owners.get("breeder")),
         ("Health Guarantee", owners.get("health")),
         ("Size & Growth", owners.get("size")),
     ]

@@ -13,6 +13,7 @@ import config
 SCOPED_CSS = """
 <style>
 .mgr-wrap{max-width:880px;margin:0 auto}
+.mgr-takeaway{background:rgba(200,134,42,.1);border-left:4px solid #c8862a;border-radius:0 8px 8px 0;padding:14px 18px;margin:0 0 20px;font-size:1.02rem}
 .mgr-price{background:rgba(200,134,42,.08);border:1px solid rgba(200,134,42,.3);border-radius:14px;padding:24px 28px;margin:22px 0;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
 .mgr-price .big{font-size:2.2rem;font-weight:700;line-height:1}
 .mgr-price .lbl{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.7;display:block;margin-top:6px}
@@ -38,8 +39,19 @@ def assemble_html(content, page, data, pricing, internal_links):
     breed = data["breed"]
     parts = [SCOPED_CSS, '<div class="mgr-wrap">']
 
+    # Key takeaway — citation-ready direct answer (GEO: AI engines quote this)
+    if content.get("key_takeaway"):
+        parts.append(f'<div class="mgr-takeaway"><strong>Quick answer:</strong> {_esc(content["key_takeaway"])}</div>')
+
     # Intro
     parts.append(f"<p>{_esc(content['intro'])}</p>")
+
+    # Quick facts table (GEO: structured data is highly extractable by AI)
+    if content.get("quick_facts"):
+        parts.append('<table class="mgr-table"><tbody>')
+        for f in content["quick_facts"]:
+            parts.append(f'<tr><td>{_esc(f["label"])}</td><td>{_esc(f["value"])}</td></tr>')
+        parts.append('</tbody></table>')
 
     # Price card (only for price/sale intents)
     if any(k in page["intent"] for k in ("price", "cost", "sale")):
@@ -83,15 +95,99 @@ def assemble_html(content, page, data, pricing, internal_links):
     parts.append('</div>')
     return "\n".join(parts)
 
-def build_faq_schema(content):
-    if not content.get("faqs"):
+def build_faq_schema(content, page=None, data=None, pricing=None, url_path=None):
+    """
+    Build a full schema.org @graph for maximum SEO + GEO (AI citation) value:
+    FAQPage + Article (speakable) + Product/Offer (price pages) + LocalBusiness + BreadcrumbList.
+    Backward-compatible: callable with just `content`.
+    """
+    graph = []
+
+    # 1. FAQPage — highly extractable by AI engines
+    if content.get("faqs"):
+        graph.append({
+            "@type": "FAQPage",
+            "mainEntity": [
+                {"@type": "Question", "name": f["q"],
+                 "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+                for f in content["faqs"]
+            ],
+        })
+
+    # 2. Article with speakable (voice + AI answer engines)
+    article = {
+        "@type": "Article",
+        "headline": content.get("h1") or content.get("title", ""),
+        "description": content.get("meta_description", ""),
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".mgr-takeaway", ".mgr-faq"],
+        },
+        "datePublished": _today(),
+        "dateModified": _today(),
+    }
+    if data:
+        article["author"] = {"@type": "Organization", "name": data["breeder"]["brand"]}
+        article["publisher"] = {"@type": "Organization", "name": data["breeder"]["network"]}
+    graph.append(article)
+
+    # 3. Product + Offer for price/sale pages (rich price snippets in SERP + AI)
+    if pricing and page and any(k in page.get("intent", "") for k in ("price", "cost", "sale")):
+        graph.append({
+            "@type": "Product",
+            "name": "Mini Golden Retriever Puppy",
+            "description": "Golden Retriever × Cavalier King Charles Spaniel puppy, family-raised with health guarantee.",
+            "brand": {"@type": "Brand", "name": data["breeder"]["brand"] if data else "Crockett Pups"},
+            "offers": {
+                "@type": "AggregateOffer",
+                "priceCurrency": "USD",
+                "lowPrice": pricing["min"],
+                "highPrice": pricing["max"],
+                "availability": "https://schema.org/InStock",
+            },
+        })
+
+    # 4. LocalBusiness (local intent + entity grounding)
+    if data:
+        b = data["breeder"]
+        graph.append({
+            "@type": "LocalBusiness",
+            "name": b["brand"],
+            "telephone": b["phone"],
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": b["location"]["city"],
+                "addressRegion": b["location"]["state_abbr"],
+                "addressCountry": "US",
+            },
+        })
+
+    # 5. BreadcrumbList (silo signal)
+    if url_path and page:
+        crumbs = _breadcrumbs(page, url_path, data)
+        if crumbs:
+            graph.append(crumbs)
+
+    if not graph:
         return ""
-    return json.dumps({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {"@type": "Question", "name": f["q"],
-             "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
-            for f in content["faqs"]
-        ],
-    }, ensure_ascii=False)
+    return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
+
+def _today():
+    import datetime
+    return datetime.date.today().isoformat()
+
+def _breadcrumbs(page, url_path, data):
+    base = "https://www.minigoldenretrievers.com"
+    items = [{"@type": "ListItem", "position": 1, "name": "Home", "item": base + "/"}]
+    # pillar level based on intent
+    intent = page.get("intent", "")
+    pillar = None
+    if "price" in intent or "cost" in intent:
+        pillar = ("Pricing", "/mini-golden-retriever-pricing/")
+    elif "size" in intent or "grown" in intent:
+        pillar = ("Size & Growth", "/mini-golden-retriever-size/")
+    if pillar:
+        items.append({"@type": "ListItem", "position": 2, "name": pillar[0], "item": base + pillar[1]})
+    items.append({"@type": "ListItem", "position": len(items) + 1,
+                  "name": page.get("intent", "Guide"), "item": base + url_path})
+    return {"@type": "BreadcrumbList", "itemListElement": items}

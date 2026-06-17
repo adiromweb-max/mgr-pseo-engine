@@ -7,14 +7,23 @@ intent/location, with the breed RED LINE enforced. Returns structured JSON
 import json, time, requests
 import config
 
-SYSTEM_PROMPT = """You are an expert dog-breed content writer for a US Mini Golden Retriever breeder (Crockett Pups, Greenville SC).
+SYSTEM_PROMPT = """You are an expert dog-breed content writer optimizing for BOTH Google and AI answer engines (ChatGPT, Perplexity, Gemini, Google AI Overviews) for a US Mini Golden Retriever breeder (Crockett Pups, Greenville SC).
+
+This is a competitive US market. Content must be citation-worthy by AI engines and rank in Google. Follow GEO (Generative Engine Optimization) best practices:
+
+CONTENT STRUCTURE (critical for AI citation):
+- Lead every section with a DIRECT ANSWER in the first 40-60 words. State the answer, then elaborate.
+- Keep paragraphs SHORT: 2-3 sentences max. Long blocks don't get cited by AI.
+- High fact density: include a concrete number, stat, or specific detail every 150-200 words.
+- Write to answer "fan-out" sub-questions an AI would break a query into (e.g. for price: "how much", "what affects cost", "is it worth it", "payment options").
+- Use natural question phrasing in headings that match how people actually ask.
 
 ABSOLUTE RULES — violating any is a failure:
 1. A "Mini Golden Retriever" = "Golden Cavalier" = Golden Retriever x Cavalier King Charles Spaniel (95% of litters) OR Golden Retriever x Cocker Spaniel ("Golden Cocker", 5%).
-2. The words "Poodle" and "Doodle" are STRICTLY FORBIDDEN anywhere in your output — not even to say "this is not a poodle", not in comparisons, not in passing, not to clarify what the breed is NOT. Do not mention poodles or doodles to contrast, exclude, or distinguish. Simply never write those words. If you feel the urge to clarify the breed is "not a poodle mix", instead just state positively what it IS (a Golden Retriever × Cavalier cross). Any appearance of "poodle" or "doodle" causes automatic rejection.
-3. Use only the facts provided in the DATA block. Never invent prices, sizes, or guarantees.
-4. Warm, family-first, trustworthy tone. Never clinical or salesy.
-5. Write genuinely useful, specific content — no filler, no repetition across sections.
+2. The words "Poodle" and "Doodle" are STRICTLY FORBIDDEN anywhere in your output — not even to say "this is not a poodle", not in comparisons, not in passing. Simply never write those words. State only what the breed IS. Any appearance causes automatic rejection.
+3. Use only the facts provided in the DATA block. Never invent prices, sizes, or guarantees. Accurate facts are what make content citation-worthy.
+4. Warm, family-first, trustworthy tone (E-E-A-T). Show expertise and care. Never clinical or salesy.
+5. Genuinely useful, specific content — no filler, no repetition across sections.
 6. Output ONLY valid JSON in the exact schema requested. No markdown, no preamble.
 """
 
@@ -41,16 +50,19 @@ Write JSON with this exact schema:
   "title": "SEO title under 60 chars, include main keyword{' and location' if page.get('location') else ''}",
   "meta_description": "compelling meta under 155 chars",
   "h1": "page headline",
-  "intro": "2-3 sentence engaging intro, specific to this intent{'/location' if page.get('location') else ''}",
+  "key_takeaway": "ONE direct, citation-ready sentence (under 30 words) that answers the page's core question with a specific fact/number. This is what AI engines will quote.",
+  "intro": "2-3 short sentences. First sentence = direct answer. Specific to this intent{'/location' if page.get('location') else ''}",
+  "quick_facts": [
+    {{"label": "short label", "value": "specific value/number"}}
+  ],
   "sections": [
-    {{"h2": "section heading", "body": "2-4 paragraphs of genuinely useful, specific content"}},
-    {{"h2": "section heading", "body": "..."}}
+    {{"h2": "question-style heading", "body": "Lead with direct answer in first 40-60 words, then elaborate. Short paragraphs (2-3 sentences). Separate paragraphs with a blank line."}}
   ],
   "faqs": [
-    {{"q": "natural question with keyword", "a": "concise helpful answer using only the DATA facts"}}
+    {{"q": "natural question matching real search phrasing", "a": "direct answer first, using only DATA facts, under 50 words"}}
   ]
 }}
-Include 2-4 sections and 3-5 FAQs. Make it unique and valuable — this page must earn its ranking."""
+Include 3-4 quick_facts, 2-4 sections, and 4-6 FAQs (more FAQs = more fan-out coverage = more AI citations). Make it the most useful page on this topic in the niche."""
 
 def generate_page_content(page, data, pricing, _retry=True):
     """Call Claude API with prompt caching, return parsed content dict."""
