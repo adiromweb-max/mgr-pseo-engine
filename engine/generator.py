@@ -29,6 +29,18 @@ ABSOLUTE RULES — violating any is a failure:
 
 def build_user_prompt(page, data, pricing):
     breed = data["breed"]
+    owners = data.get("existing_owner_pages", {})
+    # pages Claude may link to contextually, with keyword-rich anchors
+    linkable = [
+        ("/mini-golden-retriever-pricing/", "mini golden retriever price"),
+        ("/mini-golden-retriever-size/", "mini golden retriever size"),
+        ("/what-is-a-mini-golden-retriever/", "what is a mini golden retriever"),
+        ("/mini-golden-retriever-temperament/", "mini golden retriever temperament"),
+        ("/golden-cavalier-lifespan/", "golden cavalier lifespan"),
+        ("/mini-golden-retriever-puppies/", "mini golden retriever puppies"),
+        ("/health-guarantee/", "health guarantee"),
+    ]
+    link_list = "\n".join(f"- {url} (anchor idea: \"{kw}\")" for url, kw in linkable)
     return f"""DATA:
 Breed names: {breed['primary_name']} (aka {', '.join(breed['synonyms'][:5])})
 Composition: 95% {breed['composition']['primary']['cross']}; 5% {breed['composition']['secondary']['cross']}
@@ -39,6 +51,10 @@ Temperament: {', '.join(breed['temperament'])}
 Price: full {pricing['min']}-{pricing['max']} USD, adoption {pricing['adopt_min']}-{pricing['adopt_max']} after $300 refundable deposit
 Delivery: flat rate by region, +$200 per additional puppy; 6% SC tax only if pickup in SC
 Breeder: Crockett Pups, Greenville SC, (864) 794-3134, 12-year health guarantee, genetic testing, microchipped, family-raised
+
+INTERNAL LINKS — weave 2-3 of these naturally INTO your section paragraphs as contextual links (NOT a list). Use the keyword-rich anchor inside a relevant sentence. Format as HTML: <a href="URL">anchor text</a>. Only link where it genuinely fits the topic. Do NOT link to the current page's own topic.
+Available pages to link:
+{link_list}
 
 PAGE TO WRITE:
 Intent: {page['intent']}
@@ -56,7 +72,7 @@ Write JSON with this exact schema:
     {{"label": "short label", "value": "specific value/number"}}
   ],
   "sections": [
-    {{"h2": "question-style heading", "body": "Lead with direct answer in first 40-60 words, then elaborate. Short paragraphs (2-3 sentences). Separate paragraphs with a blank line."}}
+    {{"h2": "question-style heading", "body": "Lead with direct answer in first 40-60 words, then elaborate. Short paragraphs (2-3 sentences). Weave in 2-3 contextual internal links as HTML <a> tags where relevant. Separate paragraphs with a blank line."}}
   ],
   "faqs": [
     {{"q": "natural question matching real search phrasing", "a": "direct answer first, using only DATA facts, under 50 words"}}

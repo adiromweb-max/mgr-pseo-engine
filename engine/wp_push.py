@@ -75,9 +75,23 @@ def resolve_internal_links(page, data, kw_map, completed_pages=None, max_links=8
     return links[:max_links]
 
 # ── WordPress REST push ─────────────────────────────────────────────
-def push_page(content, html_body, schema, page, slug):
-    """Create or update an mgr_page post via REST. Returns the post URL."""
+def push_page(content, html_body, schema, page, slug, allow_update=False):
+    """
+    Create an mgr_page post via REST. Returns the post URL.
+    SAFETY: by default, if a page with this slug already exists, we SKIP it
+    (never overwrite an indexed/ranking page). Only updates if allow_update=True
+    (used for an explicit, intentional refresh — not the default run).
+    """
     auth = HTTPBasicAuth(config.WP_USER, config.WP_APP_PASS)
+
+    # Check if slug already exists on the live site (source of truth, not a local file)
+    existing = requests.get(f"{config.WP_CPT_REST}?slug={slug}&status=any", auth=auth, timeout=30).json()
+    if existing:
+        if not allow_update:
+            # Protect the existing page — do not touch it.
+            raise SkipExisting(f"page already exists (id {existing[0]['id']}), skipping to protect it")
+        pid = existing[0]["id"]
+
     payload = {
         "title":   content["title"],
         "slug":    slug,
@@ -92,15 +106,17 @@ def push_page(content, html_body, schema, page, slug):
             "mgr_location":  page.get("location", ""),
         },
     }
-    # check if slug exists → update instead of duplicate
-    existing = requests.get(f"{config.WP_CPT_REST}?slug={slug}", auth=auth, timeout=30).json()
-    if existing:
-        pid = existing[0]["id"]
+
+    if existing and allow_update:
         r = requests.post(f"{config.WP_CPT_REST}/{pid}", json=payload, auth=auth, timeout=60)
     else:
         r = requests.post(config.WP_CPT_REST, json=payload, auth=auth, timeout=60)
     r.raise_for_status()
     return r.json().get("link", "")
+
+class SkipExisting(Exception):
+    """Raised when a page already exists and must not be overwritten."""
+    pass
 
 def make_slug(page):
     base = page["intent"].split(":")[-1].strip().lower().replace(" ", "-").replace("/", "-")

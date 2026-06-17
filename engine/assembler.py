@@ -35,6 +35,35 @@ SCOPED_CSS = """
 
 def _esc(s): return html.escape(str(s))
 
+# Whitelist of internal paths Claude is allowed to link to in body text.
+_ALLOWED_LINK_PATHS = (
+    "/mini-golden-retriever-pricing/", "/mini-golden-retriever-size/",
+    "/what-is-a-mini-golden-retriever/", "/mini-golden-retriever-temperament/",
+    "/golden-cavalier-lifespan/", "/mini-golden-retriever-puppies/",
+    "/health-guarantee/", "/mini-golden-retriever-breeder/",
+)
+
+def _safe_links(text):
+    """
+    Escape the paragraph, then re-enable ONLY whitelisted internal <a> links.
+    Prevents any unverified/external/broken links or injection from the model.
+    """
+    import re
+    # find anchors the model wrote: <a href="/path/">anchor</a>
+    anchors = []
+    def _stash(m):
+        href, label = m.group(1), m.group(2)
+        if href in _ALLOWED_LINK_PATHS:
+            anchors.append((href, label))
+            return f"\x00{len(anchors)-1}\x00"
+        return label  # drop the link, keep the text
+    tmp = re.sub(r'<a\s+href="([^"]+)"\s*>(.*?)</a>', _stash, text, flags=re.IGNORECASE)
+    tmp = _esc(tmp)
+    # restore the approved anchors
+    for i, (href, label) in enumerate(anchors):
+        tmp = tmp.replace(f"\x00{i}\x00", f'<a href="{_esc(href)}">{_esc(label)}</a>')
+    return tmp
+
 def assemble_html(content, page, data, pricing, internal_links):
     breed = data["breed"]
     parts = [SCOPED_CSS, '<div class="mgr-wrap">']
@@ -62,12 +91,12 @@ def assemble_html(content, page, data, pricing, internal_links):
   <div>{live}<p style="margin:6px 0 0">Adoption price ${pricing['adopt_min']:,}–${pricing['adopt_max']:,} after the $300 refundable deposit.</p></div>
 </div>""")
 
-    # Sections
+    # Sections — allow safe internal <a> links inside body, escape the rest
     for s in content.get("sections", []):
         parts.append(f"<h2>{_esc(s['h2'])}</h2>")
         for para in s["body"].split("\n"):
             if para.strip():
-                parts.append(f"<p>{_esc(para.strip())}</p>")
+                parts.append(f"<p>{_safe_links(para.strip())}</p>")
 
     # FAQ
     if content.get("faqs"):
