@@ -83,9 +83,11 @@ def push_page(content, html_body, schema, page, slug, allow_update=False):
     (used for an explicit, intentional refresh — not the default run).
     """
     auth = HTTPBasicAuth(config.WP_USER, config.WP_APP_PASS)
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
 
     # Check if slug already exists on the live site (source of truth, not a local file)
-    existing = requests.get(f"{config.WP_CPT_REST}?slug={slug}&status=any", auth=auth, timeout=30).json()
+    existing = requests.get(f"{config.WP_CPT_REST}?slug={slug}&status=any",
+                            auth=auth, headers={"Accept": "application/json"}, timeout=30).json()
     if existing:
         if not allow_update:
             # Protect the existing page — do not touch it.
@@ -108,9 +110,9 @@ def push_page(content, html_body, schema, page, slug, allow_update=False):
     }
 
     if existing and allow_update:
-        r = requests.post(f"{config.WP_CPT_REST}/{pid}", json=payload, auth=auth, timeout=60)
+        r = requests.post(f"{config.WP_CPT_REST}/{pid}", json=payload, auth=auth, headers=headers, timeout=60)
     else:
-        r = requests.post(config.WP_CPT_REST, json=payload, auth=auth, timeout=60)
+        r = requests.post(config.WP_CPT_REST, json=payload, auth=auth, headers=headers, timeout=60)
     r.raise_for_status()
     return r.json().get("link", "")
 
