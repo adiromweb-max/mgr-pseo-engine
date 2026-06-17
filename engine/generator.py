@@ -28,6 +28,8 @@ ABSOLUTE RULES — violating any is a failure:
 """
 
 def build_user_prompt(page, data, pricing):
+    import datetime
+    current_year = datetime.date.today().year
     breed = data["breed"]
     owners = data.get("existing_owner_pages", {})
     # pages Claude may link to contextually, with keyword-rich anchors
@@ -60,6 +62,8 @@ PAGE TO WRITE:
 Intent: {page['intent']}
 {f"Location focus: {page['location']}" if page.get('location') else "Scope: national (no specific location)"}
 Target keywords: {', '.join(page['keywords'][:6])}
+
+CURRENT YEAR: {current_year}. If you reference a year anywhere (title, meta, or body), it MUST be {current_year} — never an earlier year. Prefer to avoid putting a year in the title unless it genuinely helps; if you do, use {current_year}.
 
 Write JSON with this exact schema:
 {{
@@ -143,7 +147,16 @@ def generate_page_content(page, data, pricing, _retry=True):
             text = "".join(b["text"] for b in r.json()["content"] if b["type"] == "text")
             content = _extract_json(text)
         _validate_red_line(content)  # if still bad, this raises and the page is skipped
+    _fix_stale_year(content)
     return content
+
+def _fix_stale_year(content):
+    """Safety net: replace any stale year (2020-2025) in title/meta with the current year."""
+    import datetime, re
+    cy = str(datetime.date.today().year)
+    for field in ("title", "meta_description", "h1"):
+        if content.get(field):
+            content[field] = re.sub(r"\b20(2[0-5]|1\d)\b", cy, content[field])
 
 def _extract_json(text):
     """Robustly extract a JSON object from model output."""
