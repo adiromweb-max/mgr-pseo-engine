@@ -99,6 +99,19 @@
   "cannibalization_warning": {
     "_note": "These intents are ALREADY owned by existing pages. Do NOT generate competing pages.",
     "for_sale_general": "18 existing litter/for-sale pages already cover generic 'for sale' intent — avoid generating generic for-sale pages",
-    "comparisons": "vs golden, vs cavalier already exist — do not regenerate"
+    "comparisons": "vs golden, vs cavalier already exist — do not regenerate",
+    "blocked_national_intents": [
+      "price: how much does it cost",
+      "size: full grown size",
+      "size: general size guide",
+      "size: weight chart",
+      "size: how big do they get",
+      "size: growth by month",
+      "size: lifespan",
+      "temperament: general",
+      "info_whatis: general",
+      "core: golden cavalier name",
+      "mix: golden cavalier (cavalier king charles)"
+    ]
   }
 }

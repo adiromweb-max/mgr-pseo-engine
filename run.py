@@ -83,9 +83,14 @@ def main():
     print(f"[batch] {args.batch}: {len(pages)} candidate pages | DRY_RUN={config.DRY_RUN}", flush=True)
 
     done = 0
+    blocked = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
     for page in pages:
         slug = wp_push.make_slug(page)
         if slug in state["completed"]:
+            continue
+        # Anti-cannibalization guard: skip national intents that compete with existing owner pages
+        if not page.get("location") and page["intent"] in blocked:
+            print(f"  ⏭ skipped (would cannibalize existing page): {page['intent']}", flush=True)
             continue
         if done >= args.limit:
             print(f"[batch] reached limit {args.limit}; rerun to continue")
@@ -94,17 +99,23 @@ def main():
             print(f"  → generating: {slug}", flush=True)
             t0 = time.time()
             content = generator.generate_page_content(page, data, pricing)
-            links   = wp_push.resolve_internal_links(page, data, kw_map)
+            links   = wp_push.resolve_internal_links(page, data, kw_map, state.get("owned_keywords", {}))
             body    = assembler.assemble_html(content, page, data, pricing, links)
-            schema  = assembler.build_faq_schema(content)
+            schema  = assembler.build_faq_schema(content, page, data, pricing, "/guide/" + slug + "/")
 
             # always write a local copy for review
             with open(os.path.join(config.OUTPUT_DIR, f"{slug}.html"), "w") as f:
                 f.write(f"<!-- {content['title']} -->\n<!-- meta: {content.get('meta_description','')} -->\n{body}")
 
             if not config.DRY_RUN:
-                url = wp_push.push_page(content, body, schema, page, slug)
-                print(f"    pushed → {url}", flush=True)
+                try:
+                    url = wp_push.push_page(content, body, schema, page, slug)
+                    print(f"    pushed → {url}", flush=True)
+                except wp_push.SkipExisting as se:
+                    print(f"    ⏭ skipped (protected): {se}", flush=True)
+                    state["completed"].append(slug)  # mark so we don't retry
+                    save_state(state)
+                    continue
 
             state["completed"].append(slug)
             state["owned_keywords"][page["intent"]] = slug
