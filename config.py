@@ -24,8 +24,8 @@ PRICING_FALLBACK   = {"min": 3900, "max": 4300, "adopt_min": 3900, "adopt_max": 
 
 # ── Generation controls ─────────────────────────────────────────────
 BATCH_SIZE        = 10          # pages per run (phased rollout, avoid spam signals)
-PUBLISH_STATUS    = "publish"     # 'draft' for review, 'publish' when approved
-DRY_RUN           = True        # True = generate HTML locally only, don't push to WP
+PUBLISH_STATUS    = "publish"   # 'draft' for review, 'publish' when approved
+DRY_RUN           = False        # True = generate HTML locally only, don't push to WP
 REQUEST_DELAY_SEC = 2           # politeness delay between API calls
 
 # ── Paths ────────────────────────────────────────────────────────────
