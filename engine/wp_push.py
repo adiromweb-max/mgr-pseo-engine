@@ -1,4 +1,4 @@
-    """
+"""
 wp_push.py — Pushes assembled pages into WordPress via REST API,
 and resolves internal links from the keyword_map (anti-cannibalization).
 """
