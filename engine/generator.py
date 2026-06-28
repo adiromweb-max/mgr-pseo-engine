@@ -18,10 +18,17 @@ CONTENT STRUCTURE (critical for AI citation):
 - Write to answer "fan-out" sub-questions an AI would break a query into (e.g. for price: "how much", "what affects cost", "is it worth it", "payment options").
 - Use natural question phrasing in headings that match how people actually ask.
 
+ANSWER ENGINE OPTIMIZATION (AEO / "People Also Ask"):
+- Each FAQ question must be phrased the way a real person types it into Google ("How much is a mini golden retriever?", "Are mini goldens good with kids?") — these are what win "People Also Ask" placements.
+- Each FAQ answer must be SELF-CONTAINED and lead with the answer in the first sentence (under 50 words), so Google can lift it directly into a PAA box or AI Overview.
+- Cover a range of question types: what/how/why/when/cost/comparison — Google rewards pages that answer the full cluster of related questions.
+- The key_takeaway and each FAQ answer should make sense even if quoted alone, with no surrounding context needed.
+
 ABSOLUTE RULES — violating any is a failure:
 1. A "Mini Golden Retriever" = "Golden Cavalier" = Golden Retriever x Cavalier King Charles Spaniel (95% of litters) OR Golden Retriever x Cocker Spaniel ("Golden Cocker", 5%).
 2. The words "Poodle" and "Doodle" are STRICTLY FORBIDDEN anywhere in your output — not even to say "this is not a poodle", not in comparisons, not in passing. Simply never write those words. State only what the breed IS. Any appearance causes automatic rejection.
 3. Use only the facts provided in the DATA block. Never invent prices, sizes, or guarantees. Accurate facts are what make content citation-worthy.
+3a. HEALTH GUARANTEE: Always describe it as conditional/available, never as automatically "included" or unconditional. Use phrasing like "backed by a health guarantee (subject to care requirements)" or "a health guarantee is available." Never imply the buyer gets it automatically with no obligations.
 4. Warm, family-first, trustworthy tone (E-E-A-T). Show expertise and care. Never clinical or salesy.
 5. Genuinely useful, specific content — no filler, no repetition across sections.
 6. Output ONLY valid JSON in the exact schema requested. No markdown, no preamble.
@@ -52,7 +59,7 @@ Colors: {', '.join(breed['coat']['colors'])}
 Temperament: {', '.join(breed['temperament'])}
 Price: full {pricing['min']}-{pricing['max']} USD, adoption {pricing['adopt_min']}-{pricing['adopt_max']} after $300 refundable deposit
 Delivery: flat rate by region, +$200 per additional puppy; 6% SC tax only if pickup in SC
-Breeder: Crockett Pups, Greenville SC, (864) 794-3134, 12-year health guarantee, genetic testing, microchipped, family-raised
+Breeder: Crockett Pups, Greenville SC, (864) 794-3134, genetic testing, microchipped, family-raised. Health guarantee available (up to 12 years) — it is CONDITIONAL on the owner meeting certain care requirements (see /health-guarantee/), so never describe it as automatic or unconditional.
 
 INTERNAL LINKS — weave 2-3 of these naturally INTO your section paragraphs as contextual links (NOT a list). Use the keyword-rich anchor inside a relevant sentence. Format as HTML: <a href="URL">anchor text</a>. Only link where it genuinely fits the topic. Do NOT link to the current page's own topic.
 Available pages to link:
@@ -79,10 +86,10 @@ Write JSON with this exact schema:
     {{"h2": "question-style heading", "body": "Lead with direct answer in first 40-60 words, then elaborate. Short paragraphs (2-3 sentences). Weave in 2-3 contextual internal links as HTML <a> tags where relevant. Separate paragraphs with a blank line."}}
   ],
   "faqs": [
-    {{"q": "natural question matching real search phrasing", "a": "direct answer first, using only DATA facts, under 50 words"}}
+    {{"q": "natural question exactly as a person would Google it", "a": "self-contained answer, direct answer first sentence, using only DATA facts, under 50 words"}}
   ]
 }}
-Include 3-4 quick_facts, 2-4 sections, and 4-6 FAQs (more FAQs = more fan-out coverage = more AI citations). Make it the most useful page on this topic in the niche."""
+Include 3-4 quick_facts, 2-4 sections, and 5-7 FAQs covering different question types (cost, size, temperament, comparison, process). More well-formed Q&A = more "People Also Ask" placements and AI citations. Make it the most useful, most quotable page on this topic in the niche."""
 
 def generate_page_content(page, data, pricing, _retry=True):
     """Call Claude API with prompt caching, return parsed content dict."""
@@ -148,7 +155,47 @@ def generate_page_content(page, data, pricing, _retry=True):
             content = _extract_json(text)
         _validate_red_line(content)  # if still bad, this raises and the page is skipped
     _fix_stale_year(content)
+    _fix_health_guarantee(content)
     return content
+
+def _fix_health_guarantee(content):
+    """
+    Safety net: rewrite any phrasing that presents the health guarantee as
+    automatically 'included' / unconditional into accurate, conditional wording.
+    Runs on every text field so it can't slip through regardless of the prompt.
+    """
+    import re
+    def fix(text):
+        if not isinstance(text, str):
+            return text
+        # "12-year health guarantee included" → conditional phrasing
+        text = re.sub(
+            r"(\d{1,2}[\-\s]?year health guarantee)\s+included",
+            r"\1 (subject to care requirements)",
+            text, flags=re.IGNORECASE)
+        # "health guarantee included" (no number) → conditional
+        text = re.sub(
+            r"health guarantee\s+included",
+            "health guarantee (subject to care requirements)",
+            text, flags=re.IGNORECASE)
+        # "includes ... a 12-year health guarantee" → "is backed by ..."
+        text = re.sub(
+            r"includes?\s+(a\s+)?(\d{1,2}[\-\s]?year\s+)?health guarantee",
+            r"is backed by a \2health guarantee (subject to care requirements)",
+            text, flags=re.IGNORECASE)
+        return text
+
+    def walk(obj):
+        if isinstance(obj, str):
+            return fix(obj)
+        if isinstance(obj, list):
+            return [walk(x) for x in obj]
+        if isinstance(obj, dict):
+            return {k: walk(v) for k, v in obj.items()}
+        return obj
+
+    for key in list(content.keys()):
+        content[key] = walk(content[key])
 
 def _fix_stale_year(content):
     """Safety net: replace any stale year (2020-2025) in title/meta with the current year."""
