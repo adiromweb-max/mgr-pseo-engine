@@ -1,4 +1,4 @@
-"""
+    """
 wp_push.py — Pushes assembled pages into WordPress via REST API,
 and resolves internal links from the keyword_map (anti-cannibalization).
 """
@@ -120,6 +120,30 @@ class SkipExisting(Exception):
     """Raised when a page already exists and must not be overwritten."""
     pass
 
+def bulk_existing_slugs(slugs):
+    """
+    Fast check: which of these slugs already exist on the site?
+    Queries WordPress in pages of 100 and returns a set of existing slugs.
+    Far faster than checking one slug at a time.
+    """
+    auth = HTTPBasicAuth(config.WP_USER, config.WP_APP_PASS)
+    headers = {"Accept": "application/json"}
+    existing = set()
+    # WP REST allows filtering by slug list; chunk to keep URLs sane
+    CHUNK = 30
+    for i in range(0, len(slugs), CHUNK):
+        chunk = slugs[i:i+CHUNK]
+        try:
+            params = "&".join(f"slug[]={s}" for s in chunk) + "&per_page=100&status=any&_fields=slug"
+            r = requests.get(f"{config.WP_CPT_REST}?{params}", auth=auth, headers=headers, timeout=30)
+            if r.ok:
+                for item in r.json():
+                    if item.get("slug"):
+                        existing.add(item["slug"])
+        except Exception as e:
+            print(f"  (bulk check warning: {e})", flush=True)
+    return existing
+
 def make_slug(page):
     intent = page["intent"]
     category, _, detail = intent.partition(":")
@@ -139,3 +163,5 @@ def make_slug(page):
         loc = "".join(c for c in loc if c.isalnum() or c == "-")
         return f"mini-golden-retriever-{base}-{loc}"
     return f"mini-golden-retriever-{base}"
+
+    
