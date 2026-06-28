@@ -1,4 +1,4 @@
-    """
+"""
 MGR Engine — Configuration
 Programmatic SEO engine for MiniGoldenRetrievers.com
 Runs on Adi's infrastructure. Generates content via Claude API, pushes to WordPress via REST.
