@@ -1,4 +1,4 @@
-"""
+    """
 MGR Engine — Configuration
 Programmatic SEO engine for MiniGoldenRetrievers.com
 Runs on Adi's infrastructure. Generates content via Claude API, pushes to WordPress via REST.
@@ -24,6 +24,7 @@ PRICING_FALLBACK   = {"min": 3900, "max": 4300, "adopt_min": 3900, "adopt_max": 
 
 # ── Generation controls ─────────────────────────────────────────────
 BATCH_SIZE        = 10          # pages per run (phased rollout, avoid spam signals)
+MAX_WORKERS       = 4           # how many pages to generate in parallel (speed)
 PUBLISH_STATUS    = "publish"   # 'draft' for review, 'publish' when approved
 DRY_RUN           = False        # True = generate HTML locally only, don't push to WP
 REQUEST_DELAY_SEC = 2           # politeness delay between API calls
@@ -37,3 +38,5 @@ DATA_LAYER    = os.path.join(DATA_DIR, "data_layer.json")
 PAGEMAP       = os.path.join(DATA_DIR, "final_pagemap.json")
 KEYWORD_MAP   = os.path.join(DATA_DIR, "keyword_map.json")
 STATE_FILE    = os.path.join(DATA_DIR, "generation_state.json")  # tracks what's built (anti-dup + anti-cannibal)
+
+    
