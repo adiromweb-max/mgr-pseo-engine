@@ -163,5 +163,3 @@ def make_slug(page):
         loc = "".join(c for c in loc if c.isalnum() or c == "-")
         return f"mini-golden-retriever-{base}-{loc}"
     return f"mini-golden-retriever-{base}"
-
-    
