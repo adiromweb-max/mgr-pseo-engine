@@ -15,6 +15,7 @@ USAGE:
 import json, os, time, argparse, sys
 import threading
 from concurrent.futures import ThreadPoolExecutor
+print(">>> run.py STARTED", flush=True)
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "engine"))
 
 import config
