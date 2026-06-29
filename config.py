@@ -38,5 +38,3 @@ DATA_LAYER    = os.path.join(DATA_DIR, "data_layer.json")
 PAGEMAP       = os.path.join(DATA_DIR, "final_pagemap.json")
 KEYWORD_MAP   = os.path.join(DATA_DIR, "keyword_map.json")
 STATE_FILE    = os.path.join(DATA_DIR, "generation_state.json")  # tracks what's built (anti-dup + anti-cannibal)
-
-    
