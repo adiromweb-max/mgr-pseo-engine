@@ -13,6 +13,8 @@ USAGE:
     python run.py --batch all               # dry run (writes HTML to output/ only)
 """
 import json, os, time, argparse, sys
+import threading
+from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "engine"))
 
 import config
@@ -61,7 +63,7 @@ def main():
 
     if args.live:
         config.DRY_RUN = False
-        config.PUBLISH_STATUS = "draft"   # still draft for review even when pushing
+        # PUBLISH_STATUS comes from config.py ("publish") — do not override it here.
 
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
     data       = load_json(config.DATA_LAYER)
@@ -80,42 +82,93 @@ def main():
 
     pricing = pricing_mod.get_live_pricing()
     print(f"[pricing] {pricing_mod.price_range_str(pricing)} (live={pricing['live']})", flush=True)
-    print(f"[batch] {args.batch}: {len(pages)} candidate pages | DRY_RUN={config.DRY_RUN}", flush=True)
 
-    done = 0
+    blocked = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
+
+    # ── Build the work list: skip already-done (state) and cannibalizing pages up front ──
+    completed_set = set(state.get("completed", []))
+    todo = []
     for page in pages:
         slug = wp_push.make_slug(page)
-        if slug in state["completed"]:
+        if slug in completed_set:
             continue
-        if done >= args.limit:
-            print(f"[batch] reached limit {args.limit}; rerun to continue")
-            break
+        if not page.get("location") and page["intent"] in blocked:
+            continue
+        page["_slug"] = slug
+        todo.append(page)
+
+    # One fast batch check against WordPress for which slugs already exist (protect them)
+    print(f"[batch] {args.batch}: {len(todo)} candidate pages not in local state | DRY_RUN={config.DRY_RUN}", flush=True)
+    if not config.DRY_RUN and todo:
+        existing_slugs = wp_push.bulk_existing_slugs([p["_slug"] for p in todo])
+        before = len(todo)
+        kept = []
+        for p in todo:
+            if p["_slug"] in existing_slugs:
+                state["completed"].append(p["_slug"])  # remember so we never re-check
+            else:
+                kept.append(p)
+        todo = kept
+        save_state(state)
+        print(f"[batch] {before - len(todo)} already exist on site (protected & cached); {len(todo)} new to build", flush=True)
+
+    # Respect the limit
+    todo = todo[:args.limit]
+    print(f"[batch] building {len(todo)} pages, up to {config.MAX_WORKERS} at a time", flush=True)
+
+    done = 0
+    published_urls = []
+    lock = threading.Lock()
+
+    def build_one(page):
+        nonlocal done
+        slug = page["_slug"]
         try:
-            print(f"  → generating: {slug}", flush=True)
             t0 = time.time()
             content = generator.generate_page_content(page, data, pricing)
             links   = wp_push.resolve_internal_links(page, data, kw_map, state.get("owned_keywords", {}))
             body    = assembler.assemble_html(content, page, data, pricing, links)
             schema  = assembler.build_faq_schema(content, page, data, pricing, "/guide/" + slug + "/")
 
-            # always write a local copy for review
             with open(os.path.join(config.OUTPUT_DIR, f"{slug}.html"), "w") as f:
                 f.write(f"<!-- {content['title']} -->\n<!-- meta: {content.get('meta_description','')} -->\n{body}")
 
+            url = ""
             if not config.DRY_RUN:
-                url = wp_push.push_page(content, body, schema, page, slug)
-                print(f"    pushed → {url}", flush=True)
-
-            state["completed"].append(slug)
-            state["owned_keywords"][page["intent"]] = slug
-            save_state(state)
-            done += 1
-            print(f"    ✓ done in {time.time()-t0:.0f}s ({done}/{args.limit})", flush=True)
-            time.sleep(config.REQUEST_DELAY_SEC)
+                try:
+                    url = wp_push.push_page(content, body, schema, page, slug)
+                except wp_push.SkipExisting:
+                    with lock:
+                        state["completed"].append(slug)
+                    return
+            with lock:
+                state["completed"].append(slug)
+                state["owned_keywords"][page["intent"]] = slug
+                done += 1
+                if url:
+                    published_urls.append((content["title"], url))
+                    print(f"  ✓ {slug} → {url}  ({time.time()-t0:.0f}s) [{done}/{len(todo)}]", flush=True)
+                else:
+                    print(f"  ✓ {slug} (local) ({time.time()-t0:.0f}s) [{done}/{len(todo)}]", flush=True)
         except Exception as e:
-            print(f"    ⚠ failed {slug}: {e}", flush=True)
+            print(f"  ⚠ failed {slug}: {e}", flush=True)
 
+    with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as ex:
+        list(ex.map(build_one, todo))
+
+    save_state(state)
     print(f"[done] generated {done} pages this run. Total completed: {len(state['completed'])}")
+
+    # Clean clickable summary of everything published this run (for quick mobile review)
+    if published_urls:
+        print("")
+        print("=" * 60)
+        print(f"✅ PUBLISHED THIS RUN ({len(published_urls)} pages) — tap to review:")
+        print("=" * 60)
+        for title, url in published_urls:
+            print(f"• {title}")
+            print(f"  {url}")
+        print("=" * 60)
 
 if __name__ == "__main__":
     main()
