@@ -84,6 +84,20 @@ def main():
 
     done = 0
     blocked = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
+
+    # Fast pre-check: ask WordPress once which of these slugs already exist,
+    # so we skip them WITHOUT generating content (saves tokens + time).
+    import requests as _rq
+    from requests.auth import HTTPBasicAuth as _Auth
+    def _already_exists(slug):
+        try:
+            r = _rq.get(f"{config.WP_CPT_REST}?slug={slug}&status=any&_fields=id",
+                        auth=_Auth(config.WP_USER, config.WP_APP_PASS),
+                        headers={"Accept": "application/json"}, timeout=20)
+            return bool(r.ok and r.json())
+        except Exception:
+            return False
+
     for page in pages:
         slug = wp_push.make_slug(page)
         if slug in state["completed"]:
@@ -95,6 +109,12 @@ def main():
         if done >= args.limit:
             print(f"[batch] reached limit {args.limit}; rerun to continue")
             break
+        # Skip existing pages BEFORE generating content (no wasted Claude tokens)
+        if not config.DRY_RUN and _already_exists(slug):
+            print(f"  ⏭ exists, skipping (no tokens used): {slug}", flush=True)
+            state["completed"].append(slug)
+            save_state(state)
+            continue
         try:
             print(f"  → generating: {slug}", flush=True)
             t0 = time.time()
