@@ -100,6 +100,8 @@
     "_note": "These intents are ALREADY owned by existing pages. Do NOT generate competing pages.",
     "for_sale_general": "18 existing litter/for-sale pages already cover generic 'for sale' intent — avoid generating generic for-sale pages",
     "comparisons": "vs golden, vs cavalier already exist — do not regenerate",
+    "homepage_owns": "The HOMEPAGE ranks #1 US for the head term 'mini golden retriever' AND for 'mini golden retriever for sale'. Never generate pages targeting those intents — they would cannibalize the homepage.",
+    "blocked_categories": ["sale", "core"],
     "blocked_national_intents": [
       "price: how much does it cost",
       "size: full grown size",
