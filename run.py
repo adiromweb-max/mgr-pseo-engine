@@ -84,6 +84,7 @@ def main():
 
     done = 0
     blocked = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
+    blocked_cats = set(data.get("cannibalization_warning", {}).get("blocked_categories", []))
 
     # Fast pre-check: ask WordPress once which of these slugs already exist,
     # so we skip them WITHOUT generating content (saves tokens + time).
@@ -101,6 +102,11 @@ def main():
     for page in pages:
         slug = wp_push.make_slug(page)
         if slug in state["completed"]:
+            continue
+        # Homepage protection: never build 'sale' or 'core' pages — the homepage ranks
+        # for the head term AND for-sale intent, so these would cannibalize it.
+        if page["intent"].split(":")[0].strip() in blocked_cats:
+            print(f"  ⏭ skipped (protects homepage): {page['intent']}", flush=True)
             continue
         # Anti-cannibalization guard: skip national intents that compete with existing owner pages
         if not page.get("location") and page["intent"] in blocked:
