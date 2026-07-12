@@ -41,12 +41,11 @@ def build_user_prompt(page, data, pricing):
     owners = data.get("existing_owner_pages", {})
     # pages Claude may link to contextually, with keyword-rich anchors
     linkable = [
+        ("/", "mini golden retriever"),
         ("/mini-golden-retriever-pricing/", "mini golden retriever price"),
         ("/mini-golden-retriever-size/", "mini golden retriever size"),
-        ("/what-is-a-mini-golden-retriever/", "what is a mini golden retriever"),
         ("/mini-golden-retriever-temperament/", "mini golden retriever temperament"),
         ("/golden-cavalier-lifespan/", "golden cavalier lifespan"),
-        ("/mini-golden-retriever-puppies/", "mini golden retriever puppies"),
         ("/health-guarantee/", "health guarantee"),
     ]
     link_list = "\n".join(f"- {url} (anchor idea: \"{kw}\")" for url, kw in linkable)
