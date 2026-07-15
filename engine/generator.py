@@ -34,12 +34,13 @@ ABSOLUTE RULES — violating any is a failure:
 6. Output ONLY valid JSON in the exact schema requested. No markdown, no preamble.
 """
 
-def build_user_prompt(page, data, pricing):
+def build_user_prompt(page, data, pricing, sibling_links=None):
     import datetime
     current_year = datetime.date.today().year
     breed = data["breed"]
     owners = data.get("existing_owner_pages", {})
-    # pages Claude may link to contextually, with keyword-rich anchors
+
+    # Tier 1: homepage + evergreen pillar pages (always relevant)
     linkable = [
         ("/", "mini golden retriever"),
         ("/mini-golden-retriever-pricing/", "mini golden retriever price"),
@@ -49,6 +50,16 @@ def build_user_prompt(page, data, pricing):
         ("/health-guarantee/", "health guarantee"),
     ]
     link_list = "\n".join(f"- {url} (anchor idea: \"{kw}\")" for url, kw in linkable)
+
+    # Tier 2: sibling pages in the same silo (same state / same category) — builds hierarchy
+    sibling_block = ""
+    if sibling_links:
+        sib = "\n".join(f"- {url} (anchor idea: \"{anchor}\")" for url, anchor in sibling_links)
+        sibling_block = f"""
+
+RELATED PAGES IN THIS CLUSTER — link to 2-3 of these too, where they fit naturally. These connect pages in the same region/topic and are important for site structure:
+{sib}"""
+
     return f"""DATA:
 Breed names: {breed['primary_name']} (aka {', '.join(breed['synonyms'][:5])})
 Composition: 95% {breed['composition']['primary']['cross']}; 5% {breed['composition']['secondary']['cross']}
@@ -60,9 +71,9 @@ Price: full {pricing['min']}-{pricing['max']} USD, adoption {pricing['adopt_min'
 Delivery: flat rate by region, +$200 per additional puppy; 6% SC tax only if pickup in SC
 Breeder: Crockett Pups, Greenville SC, (864) 794-3134, genetic testing, microchipped, family-raised. Health guarantee available (up to 12 years) — it is CONDITIONAL on the owner meeting certain care requirements (see /health-guarantee/), so never describe it as automatic or unconditional.
 
-INTERNAL LINKS — weave 2-3 of these naturally INTO your section paragraphs as contextual links (NOT a list). Use the keyword-rich anchor inside a relevant sentence. Format as HTML: <a href="URL">anchor text</a>. Only link where it genuinely fits the topic. Do NOT link to the current page's own topic.
+INTERNAL LINKS — weave 2-3 of these naturally INTO your section paragraphs as contextual links (NOT a list). Use the keyword-rich anchor inside a relevant sentence. Format as HTML: <a href="URL">anchor text</a>. Only link where it genuinely fits the topic. Do NOT link to the current page's own topic. Always include the homepage link ("mini golden retriever") once where natural.
 Available pages to link:
-{link_list}
+{link_list}{sibling_block}
 
 PAGE TO WRITE:
 Intent: {page['intent']}
@@ -90,7 +101,7 @@ Write JSON with this exact schema:
 }}
 Include 3-4 quick_facts, 2-4 sections, and 5-7 FAQs covering different question types (cost, size, temperament, comparison, process). More well-formed Q&A = more "People Also Ask" placements and AI citations. Make it the most useful, most quotable page on this topic in the niche."""
 
-def generate_page_content(page, data, pricing, _retry=True):
+def generate_page_content(page, data, pricing, _retry=True, sibling_links=None):
     """Call Claude API with prompt caching, return parsed content dict."""
     # Prompt caching: the big static system prompt is cached so repeat calls are cheaper.
     body = {
@@ -100,7 +111,7 @@ def generate_page_content(page, data, pricing, _retry=True):
             {"type": "text", "text": SYSTEM_PROMPT,
              "cache_control": {"type": "ephemeral"}}
         ],
-        "messages": [{"role": "user", "content": build_user_prompt(page, data, pricing)}],
+        "messages": [{"role": "user", "content": build_user_prompt(page, data, pricing, sibling_links)}],
     }
     r = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -120,7 +131,7 @@ def generate_page_content(page, data, pricing, _retry=True):
     if resp.get("stop_reason") == "max_tokens" and _retry:
         body["max_tokens"] = config.CLAUDE_MAX_TOKENS
         body["messages"] = [{"role": "user",
-            "content": build_user_prompt(page, data, pricing) +
+            "content": build_user_prompt(page, data, pricing, sibling_links) +
             "\n\nIMPORTANT: keep it concise — 2 sections, 3 FAQs max, so the JSON fits in one response."}]
         r = requests.post("https://api.anthropic.com/v1/messages",
             headers={"x-api-key": config.ANTHROPIC_API_KEY,
@@ -136,7 +147,7 @@ def generate_page_content(page, data, pricing, _retry=True):
         _validate_red_line(content)
     except ValueError:
         if _retry:
-            warn = build_user_prompt(page, data, pricing) + (
+            warn = build_user_prompt(page, data, pricing, sibling_links) + (
                 "\n\nCRITICAL: Your previous attempt mentioned 'poodle' or 'doodle'. "
                 "Rewrite with ZERO mention of those words anywhere — not even to say it's not one. "
                 "State only what the breed IS. Output ONLY the JSON.")
