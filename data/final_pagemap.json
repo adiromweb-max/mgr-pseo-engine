@@ -1,26 +1,8 @@
 {
- "total": 92,
- "geo": 84,
+ "total": 74,
+ "geo": 66,
  "national": 8,
  "pages": [
-  "price: general cost/price | Texas",
-  "price: general cost/price | California",
-  "price: general cost/price | Florida",
-  "price: general cost/price | New York",
-  "price: general cost/price | North Carolina",
-  "price: general cost/price | Georgia",
-  "price: general cost/price | South Carolina",
-  "price: general cost/price | Ohio",
-  "price: general cost/price | Pennsylvania",
-  "price: general cost/price | Virginia",
-  "price: general cost/price | Tennessee",
-  "price: general cost/price | Illinois",
-  "price: general cost/price | Michigan",
-  "price: general cost/price | Colorado",
-  "price: general cost/price | Arizona",
-  "price: general cost/price | Washington",
-  "price: general cost/price | Massachusetts",
-  "price: general cost/price | New Jersey",
   "variation: teacup | (national)",
   "price: puppy price | Texas",
   "price: puppy price | Houston, Texas",
@@ -109,5 +91,6 @@
   "size: lifespan | (national)",
   "temperament: general | (national)"
  ],
- "removed_homepage_cannibalization": "216 sale/core pages removed - they competed with the homepage which ranks for the head term and for-sale intent"
+ "removed_homepage_cannibalization": "216 sale/core pages removed - they competed with the homepage which ranks for the head term and for-sale intent",
+ "removed_duplicate_price": "18 general cost/price pages removed — duplicated puppy price for same locations"
 }
