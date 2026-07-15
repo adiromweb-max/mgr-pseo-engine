@@ -33,6 +33,42 @@ def save_state(state):
     with open(config.STATE_FILE, "w") as f:
         json.dump(state, f, indent=1)
 
+def build_sibling_map(all_pages):
+    """
+    For each page, find related pages in the same silo (same US state)
+    so each page can link to its neighbors — builds hierarchy/siloing.
+    Returns {slug: [(url, anchor), ...]}.
+    """
+    US_STATES = ["Texas","California","Florida","New York","North Carolina","Georgia",
+                 "South Carolina","Ohio","Pennsylvania","Virginia","Tennessee","Illinois",
+                 "Michigan","Colorado","Arizona","Washington","Massachusetts","New Jersey"]
+    # group pages by the state they belong to
+    by_state = {}
+    for p in all_pages:
+        loc = p.get("location", "")
+        state = next((s for s in US_STATES if s in loc), None)
+        if state:
+            by_state.setdefault(state, []).append(p)
+
+    sibling_map = {}
+    for p in all_pages:
+        loc = p.get("location", "")
+        state = next((s for s in US_STATES if s in loc), None)
+        if not state:
+            continue
+        slug = wp_push.make_slug(p)
+        sibs = []
+        for other in by_state[state]:
+            if other is p:
+                continue
+            o_slug = wp_push.make_slug(other)
+            o_loc = other.get("location", "")
+            anchor = f"mini golden retriever puppies in {o_loc}" if o_loc else "mini golden retriever puppies"
+            sibs.append((f"/guide/{o_slug}/", anchor))
+        if sibs:
+            sibling_map[slug] = sibs[:4]  # cap at 4 siblings per page
+    return sibling_map
+
 def parse_pagemap():
     """Turn the flat pagemap list into structured page dicts."""
     pm = load_json(config.PAGEMAP)
@@ -70,6 +106,7 @@ def main():
     state      = load_state()
 
     pages = parse_pagemap()
+    sibling_map = build_sibling_map(pages)
     if args.batch == "quickwins":
         pages = [p for p in pages if is_quickwin(p, pages_data)]
 
@@ -129,7 +166,7 @@ def main():
         try:
             print(f"  → generating: {slug}", flush=True)
             t0 = time.time()
-            content = generator.generate_page_content(page, data, pricing)
+            content = generator.generate_page_content(page, data, pricing, sibling_links=sibling_map.get(slug))
             links   = wp_push.resolve_internal_links(page, data, kw_map, state.get("owned_keywords", {}))
             body    = assembler.assemble_html(content, page, data, pricing, links)
             schema  = assembler.build_faq_schema(content, page, data, pricing, "/guide/" + slug + "/")
