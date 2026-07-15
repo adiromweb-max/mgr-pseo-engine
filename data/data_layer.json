@@ -102,6 +102,7 @@
     "comparisons": "vs golden, vs cavalier already exist — do not regenerate",
     "homepage_owns": "The HOMEPAGE ranks #1 US for the head term 'mini golden retriever' AND for 'mini golden retriever for sale'. Never generate pages targeting those intents — they would cannibalize the homepage.",
     "blocked_categories": ["sale", "core"],
+    "blocked_duplicate_intents": ["price: general cost/price"],
     "blocked_national_intents": [
       "price: how much does it cost",
       "size: full grown size",
