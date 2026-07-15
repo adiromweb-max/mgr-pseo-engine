@@ -32,8 +32,8 @@ def resolve_internal_links(page, data, kw_map, completed_pages=None, max_links=8
         ("weight","Size & Growth Chart", owners.get("size")),
         ("temperament", "Temperament Guide", owners.get("temperament")),
         ("lifespan", "Lifespan Guide", owners.get("lifespan")),
-        ("mix",   "What Is a Mini Golden?", owners.get("what_is")),
-        ("core",  "What Is a Mini Golden?", owners.get("what_is")),
+        ("mix",   "Mini Golden Retriever", "/"),
+        ("core",  "Mini Golden Retriever", "/"),
         ("variation", "Size & Growth Chart", owners.get("size")),
     ]
     cluster_key = None
@@ -58,13 +58,15 @@ def resolve_internal_links(page, data, kw_map, completed_pages=None, max_links=8
             if s not in links:
                 links.append(s)
 
-    # 3. Evergreen pillars (verified real URLs)
+    # 3. Evergreen links — homepage first (protects head term), then safe pillars.
+    #    Deliberately EXCLUDES what_is and puppies pages: those compete with the
+    #    homepage for the head term and for-sale intent.
     evergreen = [
-        ("What Is a Mini Golden?", owners.get("what_is")),
+        ("Mini Golden Retriever", "/"),
         ("Pricing Guide", owners.get("pricing")),
-        ("Available Puppies", owners.get("puppies")),
         ("Health Guarantee", owners.get("health")),
         ("Size & Growth", owners.get("size")),
+        ("Temperament", owners.get("temperament")),
     ]
     for label, url in evergreen:
         if url and (label, url) not in links:
