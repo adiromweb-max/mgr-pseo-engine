@@ -114,7 +114,12 @@ def push_page(content, html_body, schema, page, slug, allow_update=False):
     else:
         r = requests.post(config.WP_CPT_REST, json=payload, auth=auth, headers=headers, timeout=60)
     r.raise_for_status()
-    return r.json().get("link", "")
+    result = r.json()
+    link = result.get("link", "")
+    if not link:
+        # Diagnostic: show what WordPress actually returned so we can see why
+        print(f"    [debug] no link in response. status={r.status_code}, keys={list(result.keys())[:8]}, id={result.get('id')}", flush=True)
+    return link
 
 class SkipExisting(Exception):
     """Raised when a page already exists and must not be overwritten."""
