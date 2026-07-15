@@ -85,6 +85,7 @@ def main():
     done = 0
     blocked = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
     blocked_cats = set(data.get("cannibalization_warning", {}).get("blocked_categories", []))
+    blocked_dupes = set(data.get("cannibalization_warning", {}).get("blocked_duplicate_intents", []))
 
     # Fast pre-check: ask WordPress once which of these slugs already exist,
     # so we skip them WITHOUT generating content (saves tokens + time).
@@ -102,6 +103,10 @@ def main():
     for page in pages:
         slug = wp_push.make_slug(page)
         if slug in state["completed"]:
+            continue
+        # Duplicate guard: 'general cost/price' duplicates 'puppy price' for the same location
+        if page["intent"].strip() in blocked_dupes:
+            print(f"  ⏭ skipped (duplicate of puppy price): {page['intent']}", flush=True)
             continue
         # Homepage protection: never build 'sale' or 'core' pages — the homepage ranks
         # for the head term AND for-sale intent, so these would cannibalize it.
