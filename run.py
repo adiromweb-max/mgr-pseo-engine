@@ -104,6 +104,7 @@ def main():
     pages_data = load_json(os.path.join(config.DATA_DIR, "pages.json"))
     kw_map     = wp_push.load_keyword_map()
     state      = load_state()
+    completed_set = set(state.get("completed", []))
 
     pages = parse_pagemap()
     sibling_map = build_sibling_map(pages)
@@ -157,10 +158,15 @@ def main():
         if done >= args.limit:
             print(f"[batch] reached limit {args.limit}; rerun to continue")
             break
+        # FAST skip: if the state file already knows this slug, skip instantly
+        # (no WordPress call at all — this is the bulk of the pages)
+        if slug in completed_set:
+            continue
         # Skip existing pages BEFORE generating content (no wasted Claude tokens)
         if not config.DRY_RUN and _already_exists(slug):
             print(f"  ⏭ exists, skipping (no tokens used): {slug}", flush=True)
             state["completed"].append(slug)
+            completed_set.add(slug)
             save_state(state)
             continue
         try:
