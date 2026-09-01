@@ -124,6 +124,8 @@ def generate_page_content(page, data, pricing, _retry=True, sibling_links=None):
         },
         json=body, timeout=60,
     )
+    if not r.ok:
+        print(f"    [debug] Anthropic API {r.status_code}: {r.text[:800]}", flush=True)
     r.raise_for_status()
     resp = r.json()
     text = "".join(b["text"] for b in resp["content"] if b["type"] == "text")
