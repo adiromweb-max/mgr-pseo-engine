@@ -103,7 +103,9 @@ Include 3-4 quick_facts, 2-4 sections, and 5-7 FAQs covering different question 
 
 def generate_page_content(page, data, pricing, _retry=True, sibling_links=None):
     """Call Claude API with prompt caching, return parsed content dict."""
-    # Prompt caching: the big static system prompt is cached so repeat calls are cheaper.
+    # Prompt caching is GA — the cache_control block below is all that's needed.
+    # (No anthropic-beta header required anymore; the old prompt-caching-2024-07-31
+    # beta string is retired and now causes a 400 Bad Request if sent.)
     body = {
         "model": config.CLAUDE_MODEL,
         "max_tokens": config.CLAUDE_MAX_TOKENS,
@@ -119,7 +121,6 @@ def generate_page_content(page, data, pricing, _retry=True, sibling_links=None):
             "x-api-key": config.ANTHROPIC_API_KEY,
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
-            "anthropic-beta": "prompt-caching-2024-07-31",
         },
         json=body, timeout=60,
     )
@@ -135,8 +136,7 @@ def generate_page_content(page, data, pricing, _retry=True, sibling_links=None):
             "\n\nIMPORTANT: keep it concise — 2 sections, 3 FAQs max, so the JSON fits in one response."}]
         r = requests.post("https://api.anthropic.com/v1/messages",
             headers={"x-api-key": config.ANTHROPIC_API_KEY,
-                     "anthropic-version": "2023-06-01", "content-type": "application/json",
-                     "anthropic-beta": "prompt-caching-2024-07-31"},
+                     "anthropic-version": "2023-06-01", "content-type": "application/json"},
             json=body, timeout=60)
         r.raise_for_status()
         text = "".join(b["text"] for b in r.json()["content"] if b["type"] == "text")
@@ -153,8 +153,7 @@ def generate_page_content(page, data, pricing, _retry=True, sibling_links=None):
                 "State only what the breed IS. Output ONLY the JSON.")
             r = requests.post("https://api.anthropic.com/v1/messages",
                 headers={"x-api-key": config.ANTHROPIC_API_KEY,
-                         "anthropic-version": "2023-06-01", "content-type": "application/json",
-                         "anthropic-beta": "prompt-caching-2024-07-31"},
+                         "anthropic-version": "2023-06-01", "content-type": "application/json"},
                 json={"model": config.CLAUDE_MODEL, "max_tokens": config.CLAUDE_MAX_TOKENS,
                       "system": [{"type": "text", "text": SYSTEM_PROMPT,
                                   "cache_control": {"type": "ephemeral"}}],
