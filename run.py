@@ -120,55 +120,50 @@ def main():
     print(f"[pricing] {pricing_mod.price_range_str(pricing)} (live={pricing['live']})", flush=True)
     print(f"[batch] {args.batch}: {len(pages)} candidate pages | DRY_RUN={config.DRY_RUN}", flush=True)
 
-    done = 0
-    blocked = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
-    blocked_cats = set(data.get("cannibalization_warning", {}).get("blocked_categories", []))
+    blocked       = set(data.get("cannibalization_warning", {}).get("blocked_national_intents", []))
+    blocked_cats  = set(data.get("cannibalization_warning", {}).get("blocked_categories", []))
     blocked_dupes = set(data.get("cannibalization_warning", {}).get("blocked_duplicate_intents", []))
 
-    # Fast pre-check: ask WordPress once which of these slugs already exist,
-    # so we skip them WITHOUT generating content (saves tokens + time).
-    import requests as _rq
-    from requests.auth import HTTPBasicAuth as _Auth
-    def _already_exists(slug):
-        try:
-            r = _rq.get(f"{config.WP_CPT_REST}?slug={slug}&status=any&_fields=id",
-                        auth=_Auth(config.WP_USER, config.WP_APP_PASS),
-                        headers={"Accept": "application/json"}, timeout=20)
-            return bool(r.ok and r.json())
-        except Exception:
-            return False
-
+    # ── Apply the blocklists once, up front, and compute each surviving
+    # page's slug. This gives us the real candidate list before we touch
+    # WordPress or the state file at all.
+    candidates = []
     for page in pages:
-        slug = wp_push.make_slug(page)
-        if slug in state["completed"]:
-            continue
-        # Duplicate guard: 'general cost/price' duplicates 'puppy price' for the same location
         if page["intent"].strip() in blocked_dupes:
             print(f"  ⏭ skipped (duplicate of puppy price): {page['intent']}", flush=True)
             continue
-        # Homepage protection: never build 'sale' or 'core' pages — the homepage ranks
-        # for the head term AND for-sale intent, so these would cannibalize it.
         if page["intent"].split(":")[0].strip() in blocked_cats:
             print(f"  ⏭ skipped (protects homepage): {page['intent']}", flush=True)
             continue
-        # Anti-cannibalization guard: skip national intents that compete with existing owner pages
         if not page.get("location") and page["intent"] in blocked:
             print(f"  ⏭ skipped (would cannibalize existing page): {page['intent']}", flush=True)
+            continue
+        candidates.append((page, wp_push.make_slug(page)))
+
+    # ── Bulk existence check — replaces the old one-GET-per-page check.
+    # Only asks WordPress about slugs we don't already know are done, and
+    # asks about ALL of them in a handful of chunked requests (via
+    # wp_push.bulk_existing_slugs), not one request per page.
+    if not config.DRY_RUN:
+        unknown_slugs = [slug for _, slug in candidates if slug not in completed_set]
+        if unknown_slugs:
+            print(f"[precheck] checking {len(unknown_slugs)} slugs against WordPress in bulk...", flush=True)
+            existing_on_wp = wp_push.bulk_existing_slugs(unknown_slugs)
+            if existing_on_wp:
+                print(f"[precheck] {len(existing_on_wp)} already exist — marked done, no tokens used", flush=True)
+                for slug in existing_on_wp:
+                    if slug not in completed_set:
+                        state["completed"].append(slug)
+                        completed_set.add(slug)
+                save_state(state)
+
+    done = 0
+    for page, slug in candidates:
+        if slug in completed_set:
             continue
         if done >= args.limit:
             print(f"[batch] reached limit {args.limit}; rerun to continue")
             break
-        # FAST skip: if the state file already knows this slug, skip instantly
-        # (no WordPress call at all — this is the bulk of the pages)
-        if slug in completed_set:
-            continue
-        # Skip existing pages BEFORE generating content (no wasted Claude tokens)
-        if not config.DRY_RUN and _already_exists(slug):
-            print(f"  ⏭ exists, skipping (no tokens used): {slug}", flush=True)
-            state["completed"].append(slug)
-            completed_set.add(slug)
-            save_state(state)
-            continue
         try:
             print(f"  → generating: {slug}", flush=True)
             t0 = time.time()
@@ -188,10 +183,12 @@ def main():
                 except wp_push.SkipExisting as se:
                     print(f"    ⏭ skipped (protected): {se}", flush=True)
                     state["completed"].append(slug)  # mark so we don't retry
+                    completed_set.add(slug)
                     save_state(state)
                     continue
 
             state["completed"].append(slug)
+            completed_set.add(slug)
             state["owned_keywords"][page["intent"]] = slug
             save_state(state)
             done += 1
