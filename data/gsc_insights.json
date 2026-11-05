@@ -1,0 +1,25 @@
+{
+ "generated": "2026-11-05",
+ "strengthen": [],
+ "low_ctr": [],
+ "cannibalization": [],
+ "geo_demand": {},
+ "expansion": {
+  "enabled": true,
+  "pending_before": 0,
+  "added": [
+   "Lubbock, Texas",
+   "Frisco, Texas",
+   "McKinney, Texas",
+   "Anaheim, California",
+   "Irvine, California",
+   "Riverside, California",
+   "Naples, Florida",
+   "Fort Myers, Florida",
+   "Gainesville, Florida",
+   "Pensacola, Florida"
+  ],
+  "total_pages_in_map": 189,
+  "cap": 280
+ }
+}

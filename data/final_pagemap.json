@@ -1,7 +1,7 @@
 {
- "total": 179,
+ "total": 189,
  "existing_already_built": 74,
- "new_to_generate": 105,
+ "new_to_generate": 115,
  "note": "price-by-city (safe intent) + variations. NO sale/core/general-price (they cannibalize homepage).",
  "pages": [
   "price: puppy price | Texas",
@@ -182,6 +182,16 @@
   "price: puppy price | Little Rock, Arkansas",
   "price: puppy price | Charleston, West Virginia",
   "price: puppy price | Albuquerque, New Mexico",
-  "price: puppy price | Santa Fe, New Mexico"
+  "price: puppy price | Santa Fe, New Mexico",
+  "price: puppy price | Lubbock, Texas",
+  "price: puppy price | Frisco, Texas",
+  "price: puppy price | McKinney, Texas",
+  "price: puppy price | Anaheim, California",
+  "price: puppy price | Irvine, California",
+  "price: puppy price | Riverside, California",
+  "price: puppy price | Naples, Florida",
+  "price: puppy price | Fort Myers, Florida",
+  "price: puppy price | Gainesville, Florida",
+  "price: puppy price | Pensacola, Florida"
  ]
 }
