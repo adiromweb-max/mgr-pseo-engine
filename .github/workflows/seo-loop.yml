@@ -1,0 +1,58 @@
+name: MGR SEO Loop
+
+# Weekly (Wednesday): check indexing -> pull Search Console data -> auto-expand the page map
+# -> refresh internal-link silos. A Search Console error does not stop the rest.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 7 * * 3'
+
+permissions:
+  contents: write
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    env:
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASS: ${{ secrets.WP_APP_PASS }}
+      GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+      GSC_SITE_URL: ${{ secrets.GSC_SITE_URL || 'https://www.minigoldenretrievers.com/' }}
+      MGR_AUTO_EXPAND: ${{ vars.MGR_AUTO_EXPAND || 'true' }}
+      MGR_MAX_PAGES: ${{ vars.MGR_MAX_PAGES || '280' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Indexing check + sitemap resubmit
+        continue-on-error: true
+        shell: bash
+        run: python -m engine.index_check 2>&1 | tee -a loop.log
+      - name: Search Console feedback loop (+ auto-expand)
+        continue-on-error: true
+        shell: bash
+        run: python -m engine.gsc_loop 2>&1 | tee -a loop.log
+      - name: Refresh internal-link silos
+        continue-on-error: true
+        shell: bash
+        run: python -m engine.relink --apply 2>&1 | tee -a loop.log
+      - name: Commit data
+        run: |
+          git config user.name "mgr-engine-bot"
+          git config user.email "bot@a-webm.com"
+          git add data/ || true
+          git commit -m "SEO loop: update data [skip ci]" || echo "no changes"
+          git pull --rebase || true
+          git push || echo "nothing to push"
+      - name: Notify Adi (summary / failure alert)
+        if: always()
+        continue-on-error: true
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python -m engine.notify seo ${{ job.status }} loop.log
