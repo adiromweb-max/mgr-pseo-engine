@@ -39,9 +39,13 @@ def build_sibling_map(all_pages):
     so each page can link to its neighbors — builds hierarchy/siloing.
     Returns {slug: [(url, anchor), ...]}.
     """
-    US_STATES = ["Texas","California","Florida","New York","North Carolina","Georgia",
-                 "South Carolina","Ohio","Pennsylvania","Virginia","Tennessee","Illinois",
-                 "Michigan","Colorado","Arizona","Washington","Massachusetts","New Jersey"]
+    # all states from the gazetteer (longest first so "West Virginia" wins over "Virginia")
+    try:
+        US_STATES = sorted(json.load(open(os.path.join(config.DATA_DIR, "gazetteer.json")))["states"], key=len, reverse=True)
+    except Exception:
+        US_STATES = ["Texas","California","Florida","New York","North Carolina","Georgia",
+                     "South Carolina","Ohio","Pennsylvania","Virginia","Tennessee","Illinois",
+                     "Michigan","Colorado","Arizona","Washington","Massachusetts","New Jersey"]
     # group pages by the state they belong to
     by_state = {}
     for p in all_pages:
