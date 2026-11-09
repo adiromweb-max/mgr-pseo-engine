@@ -1,755 +1,1316 @@
 {
-  "checked": "2026-11-05T13:30:01.328592Z",
+  "checked": "2026-11-09T09:23:59.827635Z",
   "published": 187,
-  "indexed": 0,
+  "indexed": 146,
   "pages": [
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-birmingham-alabama/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-santa-fe-new-mexico/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albuquerque-new-mexico/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charleston-west-virginia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-little-rock-arkansas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lincoln-nebraska/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-omaha-nebraska/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-boise-idaho/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cedar-rapids-iowa/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-des-moines-iowa/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kansas-city-kansas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-wichita-kansas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-huntsville-alabama/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-montgomery-alabama/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-stamford-connecticut/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-haven-connecticut/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-hartford-connecticut/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-baton-rouge-louisiana/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-orleans-louisiana/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lexington-kentucky/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-louisville-kentucky/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tulsa-oklahoma/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma-city-oklahoma/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-ogden-utah/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-provo-utah/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-salt-lake-city-utah/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-germantown-maryland/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-07T12:38:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-germantown-maryland/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbia-maryland/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-07T07:02:12Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbia-maryland/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-baltimore-maryland/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-04T19:31:29Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-baltimore-maryland/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-wayne-indiana/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-07T12:09:34Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-wayne-indiana/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indianapolis-indiana/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-24T02:40:14Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indianapolis-indiana/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-missouri/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-28T20:12:06Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-missouri/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-louis-missouri/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T13:21:28Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-louis-missouri/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kansas-city-missouri/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T04:49:50Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kansas-city-missouri/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-green-bay-wisconsin/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T19:29:53Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-green-bay-wisconsin/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-madison-wisconsin/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T16:59:27Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-madison-wisconsin/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-milwaukee-wisconsin/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-31T07:47:02Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-milwaukee-wisconsin/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-minnesota/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-23T04:49:26Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-minnesota/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-saint-paul-minnesota/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T03:01:13Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-saint-paul-minnesota/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-minneapolis-minnesota/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T08:33:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-minneapolis-minnesota/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-eugene-oregon/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T22:44:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-eugene-oregon/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-salem-oregon/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-24T18:16:13Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-salem-oregon/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-portland-oregon/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-30T17:29:29Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-portland-oregon/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-henderson-nevada/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T09:49:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-henderson-nevada/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-reno-nevada/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-06T23:02:34Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-reno-nevada/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-las-vegas-nevada/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-06T23:05:50Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-las-vegas-nevada/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cambridge-massachusetts/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T11:56:05Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cambridge-massachusetts/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-massachusetts/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-31T05:54:32Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-massachusetts/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-bellevue-washington/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T20:21:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-bellevue-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-vancouver-washington/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T13:58:58Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-vancouver-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tacoma-washington/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-21T04:17:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tacoma-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-gilbert-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-05T15:05:02Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-gilbert-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-scottsdale-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-04T19:15:19Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-scottsdale-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chandler-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T15:44:48Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chandler-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-mesa-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T19:06:45Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-mesa-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lansing-michigan/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T05:48:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lansing-michigan/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-jose-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T21:59:51Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-jose-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-ann-arbor-michigan/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T06:03:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-ann-arbor-michigan/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rockford-illinois/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-21T05:31:51Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rockford-illinois/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-naperville-illinois/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T16:59:48Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-naperville-illinois/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-aurora-illinois/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T15:26:29Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-aurora-illinois/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-clarksville-tennessee/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-24T05:21:44Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-clarksville-tennessee/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chattanooga-tennessee/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-24T22:00:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chattanooga-tennessee/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-erie-pennsylvania/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T18:29:11Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-erie-pennsylvania/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-allentown-pennsylvania/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T17:06:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-allentown-pennsylvania/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-dayton-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T00:48:33Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-dayton-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-akron-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-19T15:11:50Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-akron-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-toledo-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-22T06:16:13Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-toledo-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-athens-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T11:59:33Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-athens-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-macon-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-08T17:06:23Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-macon-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbus-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-28T18:31:51Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbus-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fayetteville-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-06T23:00:27Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fayetteville-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-winston-salem-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-28T22:41:56Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-winston-salem-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-durham-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T18:14:48Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-durham-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-yonkers-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-20T19:31:54Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-yonkers-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-syracuse-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T19:29:33Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-syracuse-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albany-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-24T19:55:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albany-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cape-coral-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T23:58:58Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cape-coral-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tallahassee-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-04T19:52:23Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tallahassee-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-petersburg-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-30T06:15:38Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-petersburg-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-lauderdale-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-31T14:02:04Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-lauderdale-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-bakersfield-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T16:36:41Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-bakersfield-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oakland-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-21T08:52:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oakland-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-long-beach-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T17:51:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-long-beach-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fresno-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T20:59:10Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fresno-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-plano-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-28T09:28:59Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-plano-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-corpus-christi-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-04T20:02:52Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-corpus-christi-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-arlington-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T12:06:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-arlington-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-el-paso-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T15:07:19Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-el-paso-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-worth-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T16:22:16Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-worth-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-iowa/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-21T01:41:38Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-iowa/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kansas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T06:36:46Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kansas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-alabama/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-06T23:00:29Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-alabama/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-connecticut/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T20:44:50Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-connecticut/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-louisiana/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-05T22:14:25Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-louisiana/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kentucky/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-30T18:07:00Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kentucky/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T00:49:35Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-utah/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T14:09:02Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-utah/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-maryland/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-30T03:14:53Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-maryland/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indiana/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-25T05:01:06Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indiana/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-missouri/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T11:24:12Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-missouri/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-wisconsin/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T18:52:18Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-wisconsin/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-minnesota/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T19:44:11Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-minnesota/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oregon/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T00:31:27Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oregon/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-nevada/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T02:45:29Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-nevada/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-micro/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-28T19:41:56Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-micro/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-dwarf/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T07:17:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-dwarf/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-small-mini/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-19T11:50:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-small-mini/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-petite/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T07:28:25Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-petite/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-toy/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-28T18:51:56Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-toy/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-pictures-general/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T06:13:28Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-pictures-general/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-golden-cocker-cocker-spaniel/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T21:59:46Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-golden-cocker-cocker-spaniel/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-teacup/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T20:07:21Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-teacup/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T08:48:04Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-south-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T00:47:08Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-south-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-10-07T18:31:47Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T23:43:26Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-03T08:39:22Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-03T11:59:49Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-21T12:45:05Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T00:46:29Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-illinois/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T17:28:26Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-illinois/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-jersey-city-new-jersey/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T23:47:02Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-jersey-city-new-jersey/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-newark-new-jersey/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T17:17:02Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-newark-new-jersey/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-jersey/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T11:02:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-jersey/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-worcester-massachusetts/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-10T22:22:45Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-worcester-massachusetts/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-boston-massachusetts/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-11T16:40:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-boston-massachusetts/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-massachusetts/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T15:59:09Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-massachusetts/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-spokane-washington/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-09T23:30:10Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-spokane-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-seattle-washington/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T11:54:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-seattle-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-washington/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-29T05:41:58Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tucson-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T09:47:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tucson-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-phoenix-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T01:17:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-phoenix-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-arizona/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T23:10:32Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-arizona/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-colorado-springs-colorado/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T23:55:47Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-colorado-springs-colorado/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-denver-colorado/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-12T13:22:44Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-denver-colorado/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-colorado/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-11T17:41:13Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-colorado/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-grand-rapids-michigan/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-10-21T06:36:39Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-grand-rapids-michigan/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-detroit-michigan/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T21:30:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-detroit-michigan/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-michigan/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T00:58:25Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-michigan/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-illinois/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-31T06:32:03Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-illinois/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chicago-illinois/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-07T11:52:54Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chicago-illinois/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-knoxville-tennessee/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T06:02:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-knoxville-tennessee/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-memphis-tennessee/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-09-29T22:11:06Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-memphis-tennessee/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-nashville-tennessee/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T23:14:51Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-nashville-tennessee/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tennessee/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T18:43:25Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tennessee/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-virginia-beach-virginia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-03T04:32:03Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-virginia-beach-virginia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-richmond-virginia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-11T20:55:53Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-richmond-virginia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-virginia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T10:44:41Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-virginia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-pittsburgh-pennsylvania/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-31T16:33:03Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-pittsburgh-pennsylvania/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-philadelphia-pennsylvania/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-29T22:17:26Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-philadelphia-pennsylvania/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-pennsylvania/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T09:24:32Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-pennsylvania/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cincinnati-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T10:09:08Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cincinnati-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cleveland-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T21:59:24Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cleveland-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbus-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T14:44:12Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbus-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-ohio/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T12:51:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charleston-south-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T16:39:32Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charleston-south-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbia-south-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Discovered - currently not indexed",
+      "lastCrawl": null,
+      "canonical": null
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-greenville-south-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-01T02:32:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-greenville-south-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-south-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-11T16:02:53Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-south-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-augusta-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T04:47:04Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-augusta-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-savannah-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-03T01:24:30Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-savannah-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-atlanta-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T20:46:17Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-atlanta-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-georgia/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T10:34:10Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-georgia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-greensboro-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-08-30T04:54:58Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-greensboro-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-03T09:46:14Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-09-09T03:44:32Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-york-city-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T13:14:50Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-new-york-city-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-buffalo-new-york/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-10-04T01:31:23Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-buffalo-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T08:29:52Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charlotte-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-10-15T12:38:28Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charlotte-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-raleigh-north-carolina/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-10-06T09:47:19Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-raleigh-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-houston-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-09-28T21:25:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-houston-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-10T21:17:02Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-miami-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-02T04:09:34Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-miami-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T13:29:11Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-sacramento-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-10-11T11:42:34Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-sacramento-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-francisco-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T19:47:15Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-francisco-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-diego-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-05T19:13:11Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-diego-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-los-angeles-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-11-05T21:19:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-los-angeles-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-california/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-09-22T00:25:56Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-antonio-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-11-05T14:06:38Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-antonio-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-austin-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-04T18:14:43Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-austin-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-dallas-texas/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-03T03:17:01Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-dallas-texas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-orlando-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-09-22T01:15:54Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-orlando-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tampa-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-06T11:59:28Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tampa-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-jacksonville-florida/",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"You do not own this site, or the inspected URL is not part of this property.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
+      "lastCrawl": "2026-09-28T19:07:36Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-jacksonville-florida/"
     }
   ]
 }

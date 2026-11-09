@@ -1,25 +1,83 @@
 {
- "generated": "2026-11-05",
- "strengthen": [],
+ "generated": "2026-11-09",
+ "strengthen": [
+  {
+   "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
+   "queries": [
+    {
+     "q": "miniature golden retriever",
+     "clicks": 2,
+     "impr": 69,
+     "pos": 13.0
+    },
+    {
+     "q": "mini golden",
+     "clicks": 0,
+     "impr": 35,
+     "pos": 14.0
+    },
+    {
+     "q": "full grown mini golden retriever",
+     "clicks": 0,
+     "impr": 26,
+     "pos": 21.9
+    },
+    {
+     "q": "mini golden retrievers for sale",
+     "clicks": 0,
+     "impr": 25,
+     "pos": 28.6
+    },
+    {
+     "q": "mini golden retriever puppies for sale",
+     "clicks": 0,
+     "impr": 22,
+     "pos": 25.2
+    }
+   ]
+  },
+  {
+   "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-small-mini/",
+   "queries": [
+    {
+     "q": "golden cavalier size",
+     "clicks": 1,
+     "impr": 17,
+     "pos": 8.4
+    }
+   ]
+  }
+ ],
  "low_ctr": [],
  "cannibalization": [],
- "geo_demand": {},
+ "geo_demand": {
+  "Florida": 17,
+  "Michigan": 4,
+  "Kansas": 3,
+  "El Paso, Texas": 2,
+  "Cambridge, Massachusetts": 1,
+  "Allentown, Pennsylvania": 1,
+  "Texas": 1,
+  "California": 1,
+  "Oregon": 1,
+  "Fort Wayne, Indiana": 1
+ },
  "expansion": {
   "enabled": true,
-  "pending_before": 0,
+  "pending_before": 10,
   "added": [
-   "Lubbock, Texas",
-   "Frisco, Texas",
-   "McKinney, Texas",
-   "Anaheim, California",
-   "Irvine, California",
-   "Riverside, California",
-   "Naples, Florida",
-   "Fort Myers, Florida",
-   "Gainesville, Florida",
-   "Pensacola, Florida"
+   "Asheville, North Carolina",
+   "Wilmington, North Carolina",
+   "Spartanburg, South Carolina",
+   "Myrtle Beach, South Carolina",
+   "Rock Hill, South Carolina",
+   "Alpharetta, Georgia",
+   "Kalamazoo, Michigan",
+   "Marietta, Georgia",
+   "Franklin, Tennessee",
+   "Long Island, New York"
   ],
-  "total_pages_in_map": 189,
+  "total_pages_in_map": 199,
   "cap": 280
  }
 }

@@ -1,7 +1,7 @@
 {
- "total": 189,
+ "total": 199,
  "existing_already_built": 74,
- "new_to_generate": 115,
+ "new_to_generate": 125,
  "note": "price-by-city (safe intent) + variations. NO sale/core/general-price (they cannibalize homepage).",
  "pages": [
   "price: puppy price | Texas",
@@ -192,6 +192,16 @@
   "price: puppy price | Naples, Florida",
   "price: puppy price | Fort Myers, Florida",
   "price: puppy price | Gainesville, Florida",
-  "price: puppy price | Pensacola, Florida"
+  "price: puppy price | Pensacola, Florida",
+  "price: puppy price | Asheville, North Carolina",
+  "price: puppy price | Wilmington, North Carolina",
+  "price: puppy price | Spartanburg, South Carolina",
+  "price: puppy price | Myrtle Beach, South Carolina",
+  "price: puppy price | Rock Hill, South Carolina",
+  "price: puppy price | Alpharetta, Georgia",
+  "price: puppy price | Kalamazoo, Michigan",
+  "price: puppy price | Marietta, Georgia",
+  "price: puppy price | Franklin, Tennessee",
+  "price: puppy price | Long Island, New York"
  ]
 }
