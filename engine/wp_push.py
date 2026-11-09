@@ -117,11 +117,34 @@ def push_page(content, html_body, schema, page, slug, allow_update=False):
         r = requests.post(config.WP_CPT_REST, json=payload, auth=auth, headers=headers, timeout=60)
     r.raise_for_status()
     result = r.json()
+    _sync_rank_math(result.get("id"), content, slug, auth, headers)
     link = result.get("link", "")
     if not link:
         # Diagnostic: show what WordPress actually returned so we can see why
         print(f"    [debug] no link in response. status={r.status_code}, keys={list(result.keys())[:8]}, id={result.get('id')}", flush=True)
     return link
+
+def _sync_rank_math(post_id, content, slug, auth, headers):
+    """
+    Mirror the page SEO into Rank Math's own fields (title, description, focus
+    keyword) so the editor shows them filled. Values match what the plugin
+    already outputs, so nothing changes for Google. Best-effort: never blocks a publish.
+    """
+    if not post_id:
+        return
+    try:
+        base = config.WP_CPT_REST.split("/wp-json/")[0]
+        kw = slug.replace("-", " ")
+        meta = {
+            "rank_math_title": f"{content['title']} — Mini Golden Retriever Pups",
+            "rank_math_description": content.get("meta_description", ""),
+            "rank_math_focus_keyword": kw,
+        }
+        requests.post(f"{base}/wp-json/rankmath/v1/updateMeta",
+                      json={"objectID": post_id, "objectType": "post", "meta": meta},
+                      auth=auth, headers=headers, timeout=30)
+    except Exception as e:
+        print(f"    (rank math sync warning: {e})", flush=True)
 
 class SkipExisting(Exception):
     """Raised when a page already exists and must not be overwritten."""
