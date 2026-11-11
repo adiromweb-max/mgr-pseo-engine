@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-11",
  "strengthen": [
   {
    "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
@@ -7,32 +7,32 @@
     {
      "q": "miniature golden retriever",
      "clicks": 2,
-     "impr": 69,
-     "pos": 13.0
+     "impr": 75,
+     "pos": 11.5
+    },
+    {
+     "q": "mini golden retriever",
+     "clicks": 0,
+     "impr": 47,
+     "pos": 26.4
     },
     {
      "q": "mini golden",
-     "clicks": 0,
-     "impr": 35,
-     "pos": 14.0
+     "clicks": 1,
+     "impr": 39,
+     "pos": 14.8
     },
     {
      "q": "full grown mini golden retriever",
      "clicks": 0,
      "impr": 26,
-     "pos": 21.9
+     "pos": 21.6
     },
     {
      "q": "mini golden retrievers for sale",
      "clicks": 0,
      "impr": 25,
      "pos": 28.6
-    },
-    {
-     "q": "mini golden retriever puppies for sale",
-     "clicks": 0,
-     "impr": 22,
-     "pos": 25.2
     }
    ]
   },
@@ -49,35 +49,47 @@
   }
  ],
  "low_ctr": [],
- "cannibalization": [],
+ "cannibalization": [
+  {
+   "query": "mini golden retriever cost",
+   "impressions": 12,
+   "pages": [
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chattanooga-tennessee/",
+     "impr": 3
+    },
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-eugene-oregon/",
+     "impr": 3
+    }
+   ]
+  }
+ ],
  "geo_demand": {
   "Florida": 17,
   "Michigan": 4,
-  "Kansas": 3,
-  "El Paso, Texas": 2,
-  "Cambridge, Massachusetts": 1,
+  "Chattanooga, Tennessee": 1,
   "Allentown, Pennsylvania": 1,
-  "Texas": 1,
-  "California": 1,
+  "El Paso, Texas": 1,
   "Oregon": 1,
-  "Fort Wayne, Indiana": 1
+  "Texas": 1
  },
  "expansion": {
   "enabled": true,
-  "pending_before": 10,
+  "pending_before": 6,
   "added": [
-   "Asheville, North Carolina",
-   "Wilmington, North Carolina",
-   "Spartanburg, South Carolina",
-   "Myrtle Beach, South Carolina",
-   "Rock Hill, South Carolina",
-   "Alpharetta, Georgia",
-   "Kalamazoo, Michigan",
-   "Marietta, Georgia",
-   "Franklin, Tennessee",
-   "Long Island, New York"
+   "St. Paul, Minnesota",
+   "Trenton, New Jersey",
+   "Princeton, New Jersey",
+   "Bend, Oregon",
+   "Aurora, Colorado",
+   "Fort Collins, Colorado",
+   "Boulder, Colorado",
+   "Lancaster, Pennsylvania",
+   "Harrisburg, Pennsylvania",
+   "Norfolk, Virginia"
   ],
-  "total_pages_in_map": 199,
+  "total_pages_in_map": 209,
   "cap": 280
  }
 }

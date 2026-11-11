@@ -1,7 +1,7 @@
 {
- "total": 199,
+ "total": 209,
  "existing_already_built": 74,
- "new_to_generate": 125,
+ "new_to_generate": 135,
  "note": "price-by-city (safe intent) + variations. NO sale/core/general-price (they cannibalize homepage).",
  "pages": [
   "price: puppy price | Texas",
@@ -202,6 +202,16 @@
   "price: puppy price | Kalamazoo, Michigan",
   "price: puppy price | Marietta, Georgia",
   "price: puppy price | Franklin, Tennessee",
-  "price: puppy price | Long Island, New York"
+  "price: puppy price | Long Island, New York",
+  "price: puppy price | St. Paul, Minnesota",
+  "price: puppy price | Trenton, New Jersey",
+  "price: puppy price | Princeton, New Jersey",
+  "price: puppy price | Bend, Oregon",
+  "price: puppy price | Aurora, Colorado",
+  "price: puppy price | Fort Collins, Colorado",
+  "price: puppy price | Boulder, Colorado",
+  "price: puppy price | Lancaster, Pennsylvania",
+  "price: puppy price | Harrisburg, Pennsylvania",
+  "price: puppy price | Norfolk, Virginia"
  ]
 }
