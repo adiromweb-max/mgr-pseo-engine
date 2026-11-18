@@ -1,42 +1,196 @@
 {
-  "checked": "2026-11-09T09:23:59.827635Z",
-  "published": 187,
-  "indexed": 146,
+  "checked": "2026-11-18T17:06:15.884727Z",
+  "published": 209,
+  "indexed": 166,
   "pages": [
     {
-      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-birmingham-alabama/",
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-trenton-new-jersey/",
       "verdict": "NEUTRAL",
       "state": "URL is unknown to Google",
       "lastCrawl": null,
       "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-paul-minnesota/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-long-island-new-york/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-franklin-tennessee/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-marietta-georgia/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kalamazoo-michigan/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-alpharetta-georgia/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rock-hill-south-carolina/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-myrtle-beach-south-carolina/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-spartanburg-south-carolina/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-wilmington-north-carolina/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-14T10:02:17Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-wilmington-north-carolina/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-asheville-north-carolina/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-14T12:13:06Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-asheville-north-carolina/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-pensacola-florida/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-11T23:44:44Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-pensacola-florida/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-gainesville-florida/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-12T00:03:42Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-gainesville-florida/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-myers-florida/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-11T23:06:50Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-myers-florida/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-naples-florida/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-11T23:25:47Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-naples-florida/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-riverside-california/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T13:07:27Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-riverside-california/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-irvine-california/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T13:40:26Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-irvine-california/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-anaheim-california/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T11:03:38Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-anaheim-california/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-mckinney-texas/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T06:06:43Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-mckinney-texas/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-frisco-texas/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T06:40:32Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-frisco-texas/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lubbock-texas/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T07:14:19Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lubbock-texas/"
+    },
+    {
+      "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-birmingham-alabama/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-09T11:34:27Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-birmingham-alabama/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-santa-fe-new-mexico/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-09T12:34:24Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-santa-fe-new-mexico/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albuquerque-new-mexico/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-09T14:09:39Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albuquerque-new-mexico/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charleston-west-virginia/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-09T11:38:28Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charleston-west-virginia/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-little-rock-arkansas/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-09T11:39:09Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-little-rock-arkansas/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lincoln-nebraska/",
@@ -138,17 +292,17 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lexington-kentucky/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-11T00:32:35Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-lexington-kentucky/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-louisville-kentucky/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-11T03:01:40Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-louisville-kentucky/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tulsa-oklahoma/",
@@ -159,10 +313,10 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma-city-oklahoma/",
-      "verdict": "NEUTRAL",
-      "state": "URL is unknown to Google",
-      "lastCrawl": null,
-      "canonical": null
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-16T19:04:21Z",
+      "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma-city-oklahoma/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-ogden-utah/",
@@ -217,21 +371,21 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indianapolis-indiana/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-24T02:40:14Z",
+      "lastCrawl": "2026-11-11T03:00:51Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indianapolis-indiana/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-missouri/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-28T20:12:06Z",
+      "lastCrawl": "2026-11-14T00:39:26Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-missouri/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-louis-missouri/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T13:21:28Z",
+      "lastCrawl": "2026-11-10T01:45:14Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-louis-missouri/"
     },
     {
@@ -259,21 +413,21 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-milwaukee-wisconsin/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-31T07:47:02Z",
+      "lastCrawl": "2026-11-10T03:25:12Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-milwaukee-wisconsin/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-minnesota/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-23T04:49:26Z",
+      "lastCrawl": "2026-11-13T14:39:28Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-minnesota/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-saint-paul-minnesota/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T03:01:13Z",
+      "lastCrawl": "2026-11-13T09:39:29Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-saint-paul-minnesota/"
     },
     {
@@ -287,21 +441,21 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-eugene-oregon/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T22:44:01Z",
+      "lastCrawl": "2026-11-13T19:39:25Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-eugene-oregon/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-salem-oregon/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-24T18:16:13Z",
+      "lastCrawl": "2026-11-11T23:25:53Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-salem-oregon/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-portland-oregon/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-30T17:29:29Z",
+      "lastCrawl": "2026-11-09T16:37:43Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-portland-oregon/"
     },
     {
@@ -336,21 +490,21 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-massachusetts/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-31T05:54:32Z",
+      "lastCrawl": "2026-11-13T04:43:23Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-springfield-massachusetts/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-bellevue-washington/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T20:21:40Z",
+      "lastCrawl": "2026-11-16T13:03:40Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-bellevue-washington/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-vancouver-washington/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T13:58:58Z",
+      "lastCrawl": "2026-11-10T10:30:16Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-vancouver-washington/"
     },
     {
@@ -371,7 +525,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-scottsdale-arizona/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-04T19:15:19Z",
+      "lastCrawl": "2026-11-13T09:05:32Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-scottsdale-arizona/"
     },
     {
@@ -413,7 +567,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rockford-illinois/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-21T05:31:51Z",
+      "lastCrawl": "2026-11-13T03:53:23Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rockford-illinois/"
     },
     {
@@ -427,7 +581,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-aurora-illinois/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T15:26:29Z",
+      "lastCrawl": "2026-11-13T03:03:23Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-aurora-illinois/"
     },
     {
@@ -441,7 +595,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chattanooga-tennessee/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-24T22:00:15Z",
+      "lastCrawl": "2026-11-16T10:18:46Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chattanooga-tennessee/"
     },
     {
@@ -455,7 +609,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-allentown-pennsylvania/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T17:06:30Z",
+      "lastCrawl": "2026-11-13T22:09:26Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-allentown-pennsylvania/"
     },
     {
@@ -469,21 +623,21 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-akron-ohio/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-19T15:11:50Z",
+      "lastCrawl": "2026-11-10T12:14:13Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-akron-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-toledo-ohio/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-22T06:16:13Z",
+      "lastCrawl": "2026-11-15T17:56:30Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-toledo-ohio/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-athens-georgia/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-04T11:59:33Z",
+      "lastCrawl": "2026-11-13T20:19:18Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-athens-georgia/"
     },
     {
@@ -497,7 +651,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbus-georgia/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-28T18:31:51Z",
+      "lastCrawl": "2026-11-13T19:41:48Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-columbus-georgia/"
     },
     {
@@ -525,7 +679,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-yonkers-new-york/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-20T19:31:54Z",
+      "lastCrawl": "2026-11-09T15:07:42Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-yonkers-new-york/"
     },
     {
@@ -539,35 +693,35 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albany-new-york/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-24T19:55:15Z",
+      "lastCrawl": "2026-11-10T13:00:13Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albany-new-york/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cape-coral-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T23:58:58Z",
+      "lastCrawl": "2026-11-12T09:33:19Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-cape-coral-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tallahassee-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-04T19:52:23Z",
+      "lastCrawl": "2026-11-10T02:35:13Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-tallahassee-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-petersburg-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-30T06:15:38Z",
+      "lastCrawl": "2026-11-11T20:05:51Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-st-petersburg-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-lauderdale-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-31T14:02:04Z",
+      "lastCrawl": "2026-11-09T22:00:21Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-fort-lauderdale-florida/"
     },
     {
@@ -581,7 +735,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oakland-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-21T08:52:15Z",
+      "lastCrawl": "2026-11-10T12:00:57Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oakland-california/"
     },
     {
@@ -602,7 +756,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-plano-texas/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-28T09:28:59Z",
+      "lastCrawl": "2026-11-12T23:14:27Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-plano-texas/"
     },
     {
@@ -616,7 +770,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-arlington-texas/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T12:06:30Z",
+      "lastCrawl": "2026-11-09T17:37:47Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-arlington-texas/"
     },
     {
@@ -672,14 +826,14 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kentucky/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-30T18:07:00Z",
+      "lastCrawl": "2026-11-11T00:30:52Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-kentucky/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-07T00:49:35Z",
+      "lastCrawl": "2026-11-15T18:30:28Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-oklahoma/"
     },
     {
@@ -693,21 +847,21 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-maryland/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-30T03:14:53Z",
+      "lastCrawl": "2026-11-10T20:45:52Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-maryland/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indiana/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-25T05:01:06Z",
+      "lastCrawl": "2026-11-10T08:00:19Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-indiana/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-missouri/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T11:24:12Z",
+      "lastCrawl": "2026-11-13T08:24:33Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-missouri/"
     },
     {
@@ -833,20 +987,20 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-03T11:59:49Z",
+      "lastCrawl": "2026-11-15T19:14:49Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-21T12:45:05Z",
+      "lastCrawl": "2026-11-10T12:51:18Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-california/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-texas/",
-      "verdict": "PASS",
-      "state": "Submitted and indexed",
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
       "lastCrawl": "2026-10-07T00:46:29Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-texas/"
     },
@@ -903,7 +1057,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-spokane-washington/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-09T23:30:10Z",
+      "lastCrawl": "2026-11-13T04:14:25Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-spokane-washington/"
     },
     {
@@ -952,14 +1106,14 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-denver-colorado/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-12T13:22:44Z",
+      "lastCrawl": "2026-11-13T05:08:24Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-denver-colorado/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-colorado/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-11T17:41:13Z",
+      "lastCrawl": "2026-11-13T17:49:12Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-colorado/"
     },
     {
@@ -992,8 +1146,8 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chicago-illinois/",
-      "verdict": "PASS",
-      "state": "Submitted and indexed",
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
       "lastCrawl": "2026-10-07T11:52:54Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chicago-illinois/"
     },
@@ -1034,8 +1188,8 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-richmond-virginia/",
-      "verdict": "PASS",
-      "state": "Submitted and indexed",
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
       "lastCrawl": "2026-10-11T20:55:53Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-richmond-virginia/"
     },
@@ -1120,7 +1274,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-south-carolina/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-11T16:02:53Z",
+      "lastCrawl": "2026-11-11T04:15:51Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-south-carolina/"
     },
     {
@@ -1160,8 +1314,8 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-new-york/",
-      "verdict": "PASS",
-      "state": "Submitted and indexed",
+      "verdict": "NEUTRAL",
+      "state": "Crawled - currently not indexed",
       "lastCrawl": "2026-11-03T09:46:14Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-rochester-new-york/"
     },
@@ -1195,23 +1349,23 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charlotte-north-carolina/",
-      "verdict": "NEUTRAL",
-      "state": "Crawled - currently not indexed",
-      "lastCrawl": "2026-10-15T12:38:28Z",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-15T00:04:28Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-charlotte-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-raleigh-north-carolina/",
-      "verdict": "NEUTRAL",
-      "state": "Crawled - currently not indexed",
-      "lastCrawl": "2026-10-06T09:47:19Z",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T18:26:47Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-raleigh-north-carolina/"
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-houston-texas/",
-      "verdict": "NEUTRAL",
-      "state": "Crawled - currently not indexed",
-      "lastCrawl": "2026-09-28T21:25:40Z",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T11:37:23Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-houston-texas/"
     },
     {
@@ -1239,7 +1393,7 @@
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-sacramento-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-10-11T11:42:34Z",
+      "lastCrawl": "2026-11-14T01:54:28Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-sacramento-california/"
     },
     {
@@ -1272,9 +1426,9 @@
     },
     {
       "url": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-antonio-texas/",
-      "verdict": "NEUTRAL",
-      "state": "Crawled - currently not indexed",
-      "lastCrawl": "2026-11-05T14:06:38Z",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T13:23:57Z",
       "canonical": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-antonio-texas/"
     },
     {

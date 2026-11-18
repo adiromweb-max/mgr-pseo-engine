@@ -1,7 +1,7 @@
 {
- "total": 209,
+ "total": 219,
  "existing_already_built": 74,
- "new_to_generate": 135,
+ "new_to_generate": 145,
  "note": "price-by-city (safe intent) + variations. NO sale/core/general-price (they cannibalize homepage).",
  "pages": [
   "price: puppy price | Texas",
@@ -212,6 +212,16 @@
   "price: puppy price | Boulder, Colorado",
   "price: puppy price | Lancaster, Pennsylvania",
   "price: puppy price | Harrisburg, Pennsylvania",
-  "price: puppy price | Norfolk, Virginia"
+  "price: puppy price | Norfolk, Virginia",
+  "price: puppy price | Mobile, Alabama",
+  "price: puppy price | Arlington, Virginia",
+  "price: puppy price | Roanoke, Virginia",
+  "price: puppy price | Chesapeake, Virginia",
+  "price: puppy price | Columbia, Missouri",
+  "price: puppy price | Annapolis, Maryland",
+  "price: puppy price | Frederick, Maryland",
+  "price: puppy price | Norman, Oklahoma",
+  "price: puppy price | Bowling Green, Kentucky",
+  "price: puppy price | Evansville, Indiana"
  ]
 }

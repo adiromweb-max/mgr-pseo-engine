@@ -1,38 +1,38 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-18",
  "strengthen": [
   {
    "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
    "queries": [
     {
+     "q": "mini golden retriever for sale",
+     "clicks": 0,
+     "impr": 203,
+     "pos": 26.0
+    },
+    {
      "q": "miniature golden retriever",
      "clicks": 2,
-     "impr": 75,
-     "pos": 11.5
+     "impr": 88,
+     "pos": 11.9
     },
     {
      "q": "mini golden retriever",
-     "clicks": 0,
-     "impr": 47,
-     "pos": 26.4
+     "clicks": 1,
+     "impr": 80,
+     "pos": 21.6
     },
     {
      "q": "mini golden",
      "clicks": 1,
-     "impr": 39,
-     "pos": 14.8
+     "impr": 48,
+     "pos": 14.7
     },
     {
-     "q": "full grown mini golden retriever",
+     "q": "golden retriever mini",
      "clicks": 0,
-     "impr": 26,
-     "pos": 21.6
-    },
-    {
-     "q": "mini golden retrievers for sale",
-     "clicks": 0,
-     "impr": 25,
-     "pos": 28.6
+     "impr": 36,
+     "pos": 27.9
     }
    ]
   },
@@ -42,54 +42,39 @@
     {
      "q": "golden cavalier size",
      "clicks": 1,
-     "impr": 17,
-     "pos": 8.4
+     "impr": 19,
+     "pos": 8.6
     }
    ]
   }
  ],
  "low_ctr": [],
- "cannibalization": [
-  {
-   "query": "mini golden retriever cost",
-   "impressions": 12,
-   "pages": [
-    {
-     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-chattanooga-tennessee/",
-     "impr": 3
-    },
-    {
-     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-eugene-oregon/",
-     "impr": 3
-    }
-   ]
-  }
- ],
+ "cannibalization": [],
  "geo_demand": {
-  "Florida": 17,
-  "Michigan": 4,
-  "Chattanooga, Tennessee": 1,
-  "Allentown, Pennsylvania": 1,
-  "El Paso, Texas": 1,
+  "Florida": 23,
+  "Chattanooga, Tennessee": 2,
+  "Allentown, Pennsylvania": 2,
+  "Lexington, Kentucky": 2,
+  "Michigan": 1,
   "Oregon": 1,
-  "Texas": 1
+  "Little Rock, Arkansas": 1
  },
  "expansion": {
   "enabled": true,
-  "pending_before": 6,
+  "pending_before": 8,
   "added": [
-   "St. Paul, Minnesota",
-   "Trenton, New Jersey",
-   "Princeton, New Jersey",
-   "Bend, Oregon",
-   "Aurora, Colorado",
-   "Fort Collins, Colorado",
-   "Boulder, Colorado",
-   "Lancaster, Pennsylvania",
-   "Harrisburg, Pennsylvania",
-   "Norfolk, Virginia"
+   "Mobile, Alabama",
+   "Arlington, Virginia",
+   "Roanoke, Virginia",
+   "Chesapeake, Virginia",
+   "Columbia, Missouri",
+   "Annapolis, Maryland",
+   "Frederick, Maryland",
+   "Norman, Oklahoma",
+   "Bowling Green, Kentucky",
+   "Evansville, Indiana"
   ],
-  "total_pages_in_map": 209,
+  "total_pages_in_map": 219,
   "cap": 280
  }
 }
