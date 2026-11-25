@@ -1,7 +1,7 @@
 {
- "total": 219,
+ "total": 229,
  "existing_already_built": 74,
- "new_to_generate": 145,
+ "new_to_generate": 155,
  "note": "price-by-city (safe intent) + variations. NO sale/core/general-price (they cannibalize homepage).",
  "pages": [
   "price: puppy price | Texas",
@@ -222,6 +222,16 @@
   "price: puppy price | Frederick, Maryland",
   "price: puppy price | Norman, Oklahoma",
   "price: puppy price | Bowling Green, Kentucky",
-  "price: puppy price | Evansville, Indiana"
+  "price: puppy price | Evansville, Indiana",
+  "price: puppy price | Overland Park, Kansas",
+  "price: puppy price | Topeka, Kansas",
+  "price: puppy price | Arkansas",
+  "price: puppy price | Fayetteville, Arkansas",
+  "price: puppy price | Park City, Utah",
+  "price: puppy price | Lafayette, Louisiana",
+  "price: puppy price | Idaho",
+  "price: puppy price | Coeur d'Alene, Idaho",
+  "price: puppy price | Mississippi",
+  "price: puppy price | Jackson, Mississippi"
  ]
 }

@@ -1,38 +1,49 @@
 {
- "generated": "2026-11-18",
+ "generated": "2026-11-25",
  "strengthen": [
   {
    "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
    "queries": [
     {
      "q": "mini golden retriever for sale",
-     "clicks": 0,
-     "impr": 203,
-     "pos": 26.0
+     "clicks": 1,
+     "impr": 189,
+     "pos": 22.5
     },
     {
      "q": "miniature golden retriever",
      "clicks": 2,
-     "impr": 88,
-     "pos": 11.9
+     "impr": 109,
+     "pos": 10.9
     },
     {
      "q": "mini golden retriever",
      "clicks": 1,
-     "impr": 80,
-     "pos": 21.6
+     "impr": 94,
+     "pos": 18.6
     },
     {
      "q": "mini golden",
      "clicks": 1,
-     "impr": 48,
-     "pos": 14.7
+     "impr": 55,
+     "pos": 13.6
     },
     {
-     "q": "golden retriever mini",
+     "q": "mini golden retrievers",
      "clicks": 0,
-     "impr": 36,
-     "pos": 27.9
+     "impr": 43,
+     "pos": 29.7
+    }
+   ]
+  },
+  {
+   "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-diego-california/",
+   "queries": [
+    {
+     "q": "golden retriever puppies san diego",
+     "clicks": 0,
+     "impr": 16,
+     "pos": 29.4
     }
    ]
   },
@@ -42,39 +53,121 @@
     {
      "q": "golden cavalier size",
      "clicks": 1,
-     "impr": 19,
-     "pos": 8.6
+     "impr": 13,
+     "pos": 8.8
+    }
+   ]
+  },
+  {
+   "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-new-york/",
+   "queries": [
+    {
+     "q": "miniature golden retriever",
+     "clicks": 0,
+     "impr": 10,
+     "pos": 20.6
     }
    ]
   }
  ],
  "low_ctr": [],
- "cannibalization": [],
+ "cannibalization": [
+  {
+   "query": "golden retriever mini",
+   "impressions": 51,
+   "pages": [
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
+     "impr": 37
+    },
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-small-mini/",
+     "impr": 13
+    }
+   ]
+  },
+  {
+   "query": "small golden retriever",
+   "impressions": 49,
+   "pages": [
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
+     "impr": 32
+    },
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-small-mini/",
+     "impr": 13
+    }
+   ]
+  },
+  {
+   "query": "mini goldens",
+   "impressions": 15,
+   "pages": [
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
+     "impr": 10
+    },
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-new-york/",
+     "impr": 5
+    }
+   ]
+  },
+  {
+   "query": "small golden retrievers",
+   "impressions": 15,
+   "pages": [
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-florida/",
+     "impr": 9
+    },
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-brand-breed-overview-new-york/",
+     "impr": 5
+    }
+   ]
+  },
+  {
+   "query": "golden retriever price",
+   "impressions": 11,
+   "pages": [
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-albuquerque-new-mexico/",
+     "impr": 4
+    },
+    {
+     "page": "https://www.minigoldenretrievers.com/guide/mini-golden-retriever-puppy-price-san-francisco-california/",
+     "impr": 4
+    }
+   ]
+  }
+ ],
  "geo_demand": {
-  "Florida": 23,
+  "Florida": 27,
   "Chattanooga, Tennessee": 2,
   "Allentown, Pennsylvania": 2,
   "Lexington, Kentucky": 2,
+  "California": 2,
   "Michigan": 1,
-  "Oregon": 1,
   "Little Rock, Arkansas": 1
  },
  "expansion": {
   "enabled": true,
-  "pending_before": 8,
+  "pending_before": 10,
   "added": [
-   "Mobile, Alabama",
-   "Arlington, Virginia",
-   "Roanoke, Virginia",
-   "Chesapeake, Virginia",
-   "Columbia, Missouri",
-   "Annapolis, Maryland",
-   "Frederick, Maryland",
-   "Norman, Oklahoma",
-   "Bowling Green, Kentucky",
-   "Evansville, Indiana"
+   "Overland Park, Kansas",
+   "Topeka, Kansas",
+   "Arkansas",
+   "Fayetteville, Arkansas",
+   "Park City, Utah",
+   "Lafayette, Louisiana",
+   "Idaho",
+   "Coeur d'Alene, Idaho",
+   "Mississippi",
+   "Jackson, Mississippi"
   ],
-  "total_pages_in_map": 219,
+  "total_pages_in_map": 229,
   "cap": 280
  }
 }
